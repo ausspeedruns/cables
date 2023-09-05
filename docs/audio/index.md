@@ -2,7 +2,7 @@
 
 For Audio you are in charge of how it sounds on stream and how it sounds in person (called Front Of House FOH).
 
-**You need to pay attention to this mostly at the start of the runs. You're looking out for if the game is too loud/quiet or if the runners and commentators are too loud or quiet (normally they're too quiet). Adjust the volume as seen in [Control](Audio%20setup.md#Control).**
+**You need to pay attention to this mostly at the start of the runs. You're looking out for if the game is too loud/quiet or if the runners and commentators are too loud or quiet (normally they're too quiet). Adjust the volume as seen in Control.**
 
 The audio system is a Behringer X32 Rack which is supplemented by automation that runs in NodeCG. There are 6 headsets and a speaker setup.
 
