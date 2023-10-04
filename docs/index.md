@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Cables
 
 If at any point you have questions or are wondering something, please do not hesitate to reach out! We will adjust or include more details.
