@@ -9,16 +9,17 @@ The swap over can be seen as 3 stages:
 
 1. [Preparing for the next runner](#preparing-for-the-next-runner)
 2. [Setting up the next runner](#setting-up-the-next-runner)
-3. [Setting up stream](#setting-up-stream)
+3. [Going live](#going-live)
 
 ## Preparing for the next runner
 
 We need to get rid of the previous runner and find the next runner.
 
 1. Next runner needs to be found.
-2. Transition away from current runner to intermission.
-3. Current runner equipment needs to be cleared.
-4. Headsets, keyboard and mice need to be wiped down.
+2. Wait for runner to finish yapping away.
+3. Transition away from current runner to intermission.
+4. Current runner equipment needs to be cleared.
+5. Headsets, keyboard and mice need to be wiped down.
 
 ## Setting up the next runner
 
@@ -30,18 +31,21 @@ We need to get rid of the previous runner and find the next runner.
 3. Check that the X32 is getting audio.
 4. If multiple people running, check names on graphic match with sitting order.
 
-## Setting up stream
+## Going live
 
 1. Wait until runner is ready.
-2. If ahead of schedule inform the runner and host via talkback that we will wait for X minutes.
+2. If ahead of schedule inform the runner and host via talkback **B** that we will wait for X minutes.
 3. Inform runner that the host will introduce them and then we will transition and then they can talk.
 4. Give host the go ahead to start.
-5. Transition in.
+5. Hit transition in OBS.
 6. Adjust Stream audio.
-7. Adjust OBS audio.
+7. Adjust Speaker audio.
 8. Monitor chat for any issues.
+9. Breathe
 
 ## If there is a secondary on shift
+
+The basis of secondary is that they handle the stage tech while primary handles the computer and OBS.
 
 | Task                                     | Role      |
 | ---------------------------------------- | --------- |
