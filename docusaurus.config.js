@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const { readFile } = require('fs/promises');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -70,6 +71,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/docs/audio/', label: 'Audio', position: 'left'},
+          {to: '/checklists/', label: 'Checklists', position: 'left'},
           {
             href: 'https://github.com/ausspeedruns/cables',
             label: 'GitHub',
@@ -119,6 +121,18 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+  plugins: ['docusaurus-plugin-sass'],
 };
 
-module.exports = config;
+module.exports = async function() {
+  const file = (await readFile("./schedule.json", { encoding: 'utf-8'}));
+
+  return {
+    ...config,
+    customFields: {
+      ...config.customFields,
+      schedule: JSON.parse(file),
+    }
+  }
+};
