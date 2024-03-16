@@ -1,0 +1,179 @@
+.checklist-root {
+	display: grid;
+	gap: 20px;
+
+	list-style-position: outside;
+	list-style: none;
+	margin: 0;
+
+	padding: 40px;
+	box-shadow: var(--ifm-global-shadow-lw);
+
+	max-width: 1024px;
+	margin: 0 auto;
+
+	* {
+		box-sizing: border-box;
+	}
+}
+
+.print-only-run-container,
+.run-container {
+	margin: 0;
+	border: 3px solid black;
+
+	h1 {
+		padding: 20px;
+		margin: 0;
+		display: flex;
+		gap: 10px;
+		align-items: center;
+		justify-content: center;
+
+		border-bottom: 2px solid black;
+
+		img {
+			height: 32px;
+		}
+
+		& > span {
+			text-align: center;
+			width: 0;
+			display: block;
+			flex-grow: 1;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+
+	h2 {
+		border-top: 1px solid black;
+		margin: 0;
+		padding: 0;
+		line-height: 200%;
+		text-align: center;
+	}
+}
+
+.run-info {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	border-top: 1px solid black;
+
+	li {
+		flex-grow: 1;
+		padding: 10px;
+		border-right: 1px solid;
+
+		&:last-of-type {
+			border-right: none;
+		}
+	}
+}
+
+.run-runners {
+	display: flex;
+	list-style-position: outside;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	border-bottom: 2px solid black;
+
+	li {
+		justify-content: center;
+		width: 0;
+		flex-grow: 1;
+		border-top: 1px solid black;
+		border-right: 1px solid black;
+		font-weight: 600;
+
+		&:last-of-type {
+			border-right: none;
+		}
+	}
+}
+
+.run-checklist {
+	list-style-position: outside;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.run-runners li,
+.run-checklist li {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+
+	padding: 10px;
+	border-top: 1px solid black;
+
+	input[type="checkbox"] {
+		border: 1px solid black;
+		width: 24px;
+		height: 24px;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.run-notes {
+	border-top: 1px solid black;
+	flex-grow: 1;
+	padding: 10px;
+
+	h3 {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.print-only-run-container,
+.print-only {
+	display: none;
+}
+
+@media print {
+	@page {
+		size: a4 landscape;
+		margin: 1cm;
+	}
+
+	.checklist-root {
+		top: 0;
+		left: 0;
+		position: absolute;
+
+		width: 297mm;
+		overflow: hidden;
+
+		display: grid;
+		gap: 0 10mm;
+		grid-template-columns: 1fr 1fr;
+
+		padding: 0;
+		box-shadow: none;
+
+		max-width: initial;
+	}
+
+	.print-only-run-container,
+	.run-container {
+		height: calc(100vh - 4px);
+	}
+
+	.print-only-run-container,
+	.print-only {
+		display: initial;
+	}
+
+	.do-not-print {
+		display: none;
+	}
+}
