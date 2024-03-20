@@ -32,7 +32,6 @@ function HomepageHeader() {
 						<img src={imageSrc} />
 					))}
 				</marquee>
-				<div className={styles.buttons}></div>
 			</div>
 		</header>
 	);

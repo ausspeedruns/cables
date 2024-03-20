@@ -23,7 +23,7 @@
 	border: 3px solid black;
 
 	h1 {
-		padding: 20px;
+		padding: 10px 20px;
 		margin: 0;
 		display: flex;
 		gap: 10px;
@@ -65,9 +65,21 @@
 	border-top: 1px solid black;
 
 	li {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		flex-grow: 1;
-		padding: 10px;
+		padding: 5px;
 		border-right: 1px solid;
+		line-height: 20px;
+
+		span:first-child {
+			font-style: italic;
+		}
+
+		span:last-child {
+			font-weight: bold;
+		}
 
 		&:last-of-type {
 			border-right: none;
@@ -77,20 +89,26 @@
 
 .run-runners {
 	display: flex;
+	align-items: center;
 	list-style-position: outside;
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	width: 100%;
 
+	border-top: 1px solid black;
 	border-bottom: 2px solid black;
+
+	h2 {
+		margin-left: 8px;
+		margin-right: 32px;
+		border: none;
+	}
 
 	li {
 		justify-content: center;
-		width: 0;
-		flex-grow: 1;
-		border-top: 1px solid black;
-		border-right: 1px solid black;
 		font-weight: 600;
+		border: none !important;
 
 		&:last-of-type {
 			border-right: none;
@@ -103,6 +121,8 @@
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 .run-runners li,
@@ -110,14 +130,18 @@
 	display: flex;
 	gap: 10px;
 	align-items: center;
+	text-wrap: balance;
+	line-height: 22px;
 
-	padding: 10px;
+	padding: 9px;
 	border-top: 1px solid black;
 
 	input[type="checkbox"] {
 		border: 1px solid black;
 		width: 24px;
 		height: 24px;
+		min-width: 24px;
+		min-height: 24px;
 		margin: 0;
 		padding: 0;
 	}

@@ -34,7 +34,7 @@ We need to get rid of the previous runner and find the next runner.
 ## Going live
 
 1. Wait until runner is ready.
-2. If ahead of schedule inform the runner and host via talkback **B** that we will wait for X minutes.
+2. If ahead of schedule inform the runner and host that we will wait for X minutes.
 3. Inform runner that the host will introduce them and then we will transition and then they can talk.
 4. Give host the go ahead to start.
 5. Hit transition in OBS.
