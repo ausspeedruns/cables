@@ -4,9 +4,9 @@ import Layout from "@theme/Layout";
 import { format } from "date-fns";
 
 import styles from "./checklists.module.scss";
+import BrowserOnly from "@docusaurus/BrowserOnly";
 
 function Checklist({ item, printOnly }: { item: ScheduleItem; printOnly?: boolean }) {
-	console.log(new Date(item.scheduledTime));
 	return (
 		<li className={printOnly ? styles["print-only-run-container"] : styles["run-container"]}>
 			<h1>
@@ -99,9 +99,15 @@ function Checklists() {
 export default function ChecklistsPage() {
 	return (
 		<Layout title={"Checklists"} description="Checklists for the current AusSpeedruns event">
-			<button onClick={window.print} className={styles["do-not-print"]}>
-				Print
-			</button>
+			<BrowserOnly>
+				{() => {
+					return (
+						<button onClick={window.print} className={styles["do-not-print"]}>
+							Print
+						</button>
+					);
+				}}
+			</BrowserOnly>
 			<Checklists />
 			<main></main>
 		</Layout>
