@@ -17,7 +17,13 @@ If you are not an AusSpeedruns Tech member please do reach out but understand th
 - Runner Tablet Redesign
 - Game Audio Channels
   - Can be named now rather than just Game 1 or Game 2
-  - Can be disabled now (e.g. Co-op is done on one system)
+  - Can be disabled now (e.g. If Co-op is done on one system)
 - Status Panel
   - Made smaller
-  - Includes descriptions about what automations will happen when transitioning to different stages
+  - Includes descriptions about what automations will happen when transitioning to different scenes
+- Physical Checklists
+  - THANK YOU DILLON &lt;3333
+  - Hopefully will help keep track about whats happening
+  - This is a version 1 so any improvements, tweaks, changes, modification, etc, PLEASE let me know
+- New Microphone Audio Panel
+  - Cleaner UI for changing the Microphone activity indicator threshold and the volume the host unmutes at
