@@ -9,7 +9,7 @@ import BrowserOnly from "@docusaurus/BrowserOnly";
 function Checklist({ item, printOnly }: { item: ScheduleItem; printOnly?: boolean }) {
 	return (
 		<li className={printOnly ? styles["print-only-run-container"] : styles["run-container"]}>
-			<h1>
+			<h1 className={styles["run-title"]}>
 				<img className={styles["print-only"]} src="/cables/img/AusSpeedruns-LogoBlack.svg" />
 				<span>{item.game}</span>
 			</h1>
@@ -31,20 +31,26 @@ function Checklist({ item, printOnly }: { item: ScheduleItem; printOnly?: boolea
 					<span>{item.scheduledTime ? format(new Date(item.scheduledTime), "E d H:mm a") : <br />}</span>
 				</li>
 			</ul>
-			<ol className={styles["run-runners"]}>
-				<h2>
-					Runners{item.race && " [Race]"}
-					{item.coop && " [Co-op]"}
-				</h2>
+			<div className={styles["people"]}>
+				<ul className={styles["run-runners"]}>
+					<h2>
+						Runners{item.race && " [Race]"}
+						{item.coop && " [Co-op]"}
+					</h2>
 
-				{item.runners.map((runner) => (
-					<li key={runner.id}>
-						<input type="checkbox" />
-						{runner.username}
-					</li>
-				))}
-			</ol>
+					{item.runners.map((runner) => (
+						<li key={runner.id}>
+							<input type="checkbox" />
+							{runner.username} <span className={styles["pronouns"]}>{runner.pronouns && `[${runner.pronouns}]`}</span>
+						</li>
+					))}
+				</ul>
+				<div className={styles["staff"]}>
+					<h2>Tech</h2>
+				</div>
+			</div>
 			<h2 className={styles["do-not-print"]}>Checklist</h2>
+			<div className={styles["run-checklist-heading"]}>Pre-run</div>
 			<ul className={styles["run-checklist"]}>
 				{ChecklistItems.preTech.map((check) => (
 					<li key={check}>
@@ -52,12 +58,24 @@ function Checklist({ item, printOnly }: { item: ScheduleItem; printOnly?: boolea
 						{check}
 					</li>
 				))}
+			</ul>
+			<div className={styles["run-checklist-heading"]}>Setup</div>
+			<ul className={styles["run-checklist"]}>
 				{getChecklist(getConsoleType(abbreviateConsole(item.platform))).map((check) => (
 					<li key={check}>
 						<input type="checkbox" />
 						{check}
 					</li>
 				))}
+				{ChecklistItems.postConsole.map((check) => (
+					<li key={check}>
+						<input type="checkbox" />
+						{check}
+					</li>
+				))}
+			</ul>
+			<div className={styles["run-checklist-heading"]}>Post Start</div>
+			<ul className={styles["run-checklist"]}>
 				{ChecklistItems.postTech.map((check) => (
 					<li key={check}>
 						<input type="checkbox" />
@@ -251,19 +269,19 @@ function getConsoleType(consoleType: ReturnType<typeof abbreviateConsole>): Cons
 }
 
 const ChecklistItems = {
-	preTech: ["All Previous Runner's gear gone", "Wipe Down Headsets"],
-	postTech: [
+	preTech: ["Previous Runner gear gone", "Wipe Down Headsets"],
+	postConsole: [
 		"Runner's equipment setup",
 		"Runner Info/Pronouns",
 		"Game Video",
 		"Audio",
 		"Cropping",
 		"Cameras",
-		"Names Match Sitting Order",
+		"Names match order",
+		"Preview audio",
 		"Runner informed about going live",
-		"Stream Audio",
-		"Speakers Audio",
 	],
+	postTech: ["Speakers Audio", "Monitor Twitch Chat"],
 } as const;
 
 const PCChecklist = [
@@ -304,25 +322,25 @@ const BlankChecklist: ScheduleItem = {
 	runners: [
 		{
 			id: "",
-			username: "Runner 1",
+			username: "_______",
 			pronouns: "",
 			twitch: "",
 		},
 		{
 			id: "",
-			username: "Runner 2",
+			username: "_______",
 			pronouns: "",
 			twitch: "",
 		},
 		// {
 		// 	id: "",
-		// 	username: "Runner 3",
+		// 	username: "_______",
 		// 	pronouns: "",
 		// 	twitch: "",
 		// },
 		// {
 		// 	id: "",
-		// 	username: "Runner 4",
+		// 	username: "_______",
 		// 	pronouns: "",
 		// 	twitch: "",
 		// },
