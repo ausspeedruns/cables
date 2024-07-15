@@ -16,7 +16,7 @@ function Checklist({ item, printOnly }: { item: ScheduleItem; printOnly?: boolea
 			<ul className={styles["run-info"]}>
 				<li>
 					<span>Category</span>
-					<span>{item.category}</span>
+					<span>{item.category.length > 40 ? "Way Too Long" : item.category}</span>
 				</li>
 				<li>
 					<span>Platform</span>
