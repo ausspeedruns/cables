@@ -7,13 +7,17 @@ import styles from "./checklists.module.scss";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
 function Checklist({ item, printOnly }: { item: ScheduleItem; printOnly?: boolean }) {
+	const randomDrawingItem = DrawingElements[Math.floor(Math.random() * DrawingElements.length)];
+
+	console.log(item.scheduledTime)
+
 	return (
-		<li className={printOnly ? styles["print-only-run-container"] : styles["run-container"]}>
-			<h1 className={styles["run-title"]}>
-				<img className={styles["print-only"]} src="/cables/img/AusSpeedruns-LogoBlack.svg" />
+		<li className={printOnly ? styles.printOnlyRunContainer : styles.runContainer}>
+			<h1 className={styles.runTitle}>
+				<img className={styles.printOnly} src="/cables/img/AusSpeedruns-LogoBlack.svg" />
 				<span>{item.game}</span>
 			</h1>
-			<ul className={styles["run-info"]}>
+			<ul className={styles.runInfo}>
 				<li>
 					<span>Category</span>
 					<span>{item.category.length > 40 ? "Way Too Long" : item.category}</span>
@@ -31,8 +35,8 @@ function Checklist({ item, printOnly }: { item: ScheduleItem; printOnly?: boolea
 					<span>{item.scheduledTime ? format(new Date(item.scheduledTime), "E d H:mm a") : <br />}</span>
 				</li>
 			</ul>
-			<div className={styles["people"]}>
-				<ul className={styles["run-runners"]}>
+			<div className={styles.people}>
+				<ul className={styles.runRunners}>
 					<h2>
 						Runners{item.race && " [Race]"}
 						{item.coop && " [Co-op]"}
@@ -41,17 +45,17 @@ function Checklist({ item, printOnly }: { item: ScheduleItem; printOnly?: boolea
 					{item.runners.map((runner) => (
 						<li key={runner.id}>
 							<input type="checkbox" />
-							{runner.username} <span className={styles["pronouns"]}>{runner.pronouns && `[${runner.pronouns}]`}</span>
+							{runner.username} <span className={styles.pronouns}>{runner.pronouns && `[${runner.pronouns}]`}</span>
 						</li>
 					))}
 				</ul>
-				<div className={styles["staff"]}>
+				<div className={styles.staff}>
 					<h2>Tech</h2>
 				</div>
 			</div>
-			<h2 className={styles["do-not-print"]}>Checklist</h2>
-			<div className={styles["run-checklist-heading"]}>Pre-run</div>
-			<ul className={styles["run-checklist"]}>
+			<h2 className={styles.doNotPrint}>Checklist</h2>
+			<div className={styles.runChecklistHeading}>Pre-run</div>
+			<ul className={styles.runChecklist}>
 				{ChecklistItems.preTech.map((check) => (
 					<li key={check}>
 						<input type="checkbox" />
@@ -59,8 +63,8 @@ function Checklist({ item, printOnly }: { item: ScheduleItem; printOnly?: boolea
 					</li>
 				))}
 			</ul>
-			<div className={styles["run-checklist-heading"]}>Setup</div>
-			<ul className={styles["run-checklist"]}>
+			<div className={styles.runChecklistHeading}>Setup</div>
+			<ul className={styles.runChecklist}>
 				{getChecklist(getConsoleType(abbreviateConsole(item.platform))).map((check) => (
 					<li key={check}>
 						<input type="checkbox" />
@@ -74,8 +78,8 @@ function Checklist({ item, printOnly }: { item: ScheduleItem; printOnly?: boolea
 					</li>
 				))}
 			</ul>
-			<div className={styles["run-checklist-heading"]}>Post Start</div>
-			<ul className={styles["run-checklist"]}>
+			<div className={styles.runChecklistHeading}>Post Start</div>
+			<ul className={styles.runChecklist}>
 				{ChecklistItems.postTech.map((check) => (
 					<li key={check}>
 						<input type="checkbox" />
@@ -83,13 +87,20 @@ function Checklist({ item, printOnly }: { item: ScheduleItem; printOnly?: boolea
 					</li>
 				))}
 			</ul>
-			<div className={styles["run-notes"]}>
+			<div className={styles.runNotes}>
 				<h3>Notes:</h3>
 				<span>
 					{item.specialRequirements
 						.split("\n")
 						.flatMap((val, idx, arr) => (idx === arr.length - 1 ? val : [val, <br key={idx} />]))}
 				</span>
+
+				<div className={styles.drawingSection}>
+					{/* This is a section for drawing, so that the tech can draw on the checklist */}
+					<span>
+						Draw {randomDrawingItem}
+					</span>
+				</div>
 			</div>
 		</li>
 	);
@@ -105,7 +116,7 @@ function Checklists() {
 		.map((_, idx) => <Checklist key={`blank-${idx}`} item={BlankChecklist} printOnly />);
 
 	return (
-		<ol className={styles["checklist-root"]}>
+		<ol className={styles.checklistRoot}>
 			{schedule?.map((item) => (
 				<Checklist key={item.id} item={item} />
 			))}
@@ -120,7 +131,7 @@ export default function ChecklistsPage() {
 			<BrowserOnly>
 				{() => {
 					return (
-						<button onClick={window.print} className={styles["do-not-print"]}>
+						<button onClick={window.print} className={styles.doNotPrint}>
 							Print
 						</button>
 					);
@@ -295,7 +306,7 @@ const HDConsoleChecklist = ["HDMI from Splitter into Console", "Monitor on corre
 
 const UnknownChecklist = ["Discuss with runner how to capture console."] as const;
 
-const ConsoleChecklist = ["HDMI from Splitter into RetroTink", "Monitor on correct source"];
+const ConsoleChecklist = ["HDMI from Splitter into RetroTink", "Monitor on correct source"] as const;
 
 function getChecklist(consoleType: ConsoleType) {
 	switch (consoleType) {
@@ -348,3 +359,46 @@ const BlankChecklist: ScheduleItem = {
 	techPlatform: "",
 	specialRequirements: "",
 };
+
+// "Draw ______"
+const DrawingElements = [
+	"a Dinosaur",
+	"a Cat",
+	"a Dog",
+	"a Fish",
+	"a Bird",
+	"a Flower",
+	"a Tree",
+	"the Sun",
+	"the Moon",
+	"a Star",
+	"a Heart",
+	"a Cloud",
+	"a Rainbow",
+	"a Lightning Storm",
+	"a Snowflake",
+	"some Fire",
+	"some Water",
+	"the Earth",
+	"Space",
+	"a Rocket",
+	"an Alien",
+	"a Robot",
+	"a Monster",
+	"a Superhero",
+	"a Villain",
+	"a Princess",
+	"a Prince",
+	"Clubwho",
+	"the AusSpeedruns Logo",
+	"your favourite game character",
+	"your favourite console",
+	"your favourite game",
+	"your favourite animal",
+	"your favourite food",
+	"your favourite person",
+	"your dream setup",
+	"your dream destination",
+	"your dream mode of transport",
+	"anything you want"
+];

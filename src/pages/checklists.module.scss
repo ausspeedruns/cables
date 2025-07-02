@@ -1,4 +1,4 @@
-.checklist-root {
+.checklistRoot {
 	display: grid;
 	gap: 20px;
 
@@ -27,10 +27,13 @@
 	}
 }
 
-.print-only-run-container,
-.run-container {
+.printOnlyRunContainer,
+.runContainer {
+	display: flex;
+	flex-direction: column;
 	margin: 0;
-	border: 3px solid black;
+	box-sizing: border-box;
+	// border: 3px solid black;
 	width: 100%;
 	overflow: hidden;
 
@@ -69,7 +72,7 @@
 	}
 }
 
-.run-info {
+.runInfo {
 	display: flex;
 	list-style: none;
 	margin: 0;
@@ -101,13 +104,13 @@
 }
 
 .people {
-	display: grid;
-	grid-template-columns: 2fr 1.3fr;
+	// display: grid;
+	// grid-template-columns: 2fr 1.3fr;
 
 	border-top: 1px solid black;
 	border-bottom: 2px solid black;
 
-	height: 40px;
+	// height: 40px;
 
 	h2 {
 		height: 40px;
@@ -116,7 +119,7 @@
 }
 
 .staff {
-	border-left: 1px solid black;
+	border-top: 1px solid black;
 
 	h2 {
 		border: none;
@@ -125,7 +128,7 @@
 	}
 }
 
-.run-runners {
+.runRunners {
 	display: flex;
 	align-items: center;
 	list-style-position: outside;
@@ -160,7 +163,7 @@
 	}
 }
 
-.run-checklist-heading {
+.runChecklistHeading {
 	display: flex;
 	justify-content: center;
 	border-top: 3px solid black;
@@ -168,7 +171,7 @@
 	font-weight: bold;
 }
 
-.run-checklist {
+.runChecklist {
 	list-style-position: outside;
 	list-style: none;
 	margin: 0;
@@ -177,8 +180,8 @@
 	grid-template-columns: 1fr 1fr;
 }
 
-.run-runners li,
-.run-checklist li {
+.runRunners li,
+.runChecklist li {
 	display: flex;
 	gap: 10px;
 	align-items: center;
@@ -205,7 +208,8 @@
 	}
 }
 
-.run-notes {
+.runNotes {
+	position: relative;
 	border-top: 1px solid black;
 	flex-grow: 1;
 	padding: 10px;
@@ -216,28 +220,31 @@
 	}
 }
 
-.print-only-run-container,
-.print-only {
+.drawingSection {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 25%;
+	height: 250px;
+	border: 1px solid black;
+	padding-left: 6px;
+}
+
+.printOnlyRunContainer,
+.printOnly {
 	display: none;
 }
 
 @media print {
 	@page {
-		size: a4 landscape;
+		size: a4 portrait;
 		margin: 1cm;
 	}
 
-	.checklist-root {
+	.checklistRoot {
 		top: 0;
 		left: 0;
 		position: absolute;
-
-		width: 297mm;
-		overflow: hidden;
-
-		display: grid;
-		gap: 0 10mm;
-		grid-template-columns: 1fr 1fr;
 
 		padding: 0;
 		box-shadow: none;
@@ -245,17 +252,25 @@
 		max-width: initial;
 	}
 
-	.print-only-run-container,
-	.run-container {
-		height: calc(100vh - 4px);
+	.printOnlyRunContainer,
+	.runContainer {
+		height: calc(100vh - 0.5cm);
+		max-height: calc(100vh - 0.5cm);
+		// height: 99vh;
+		// max-height: 99vh;
+		// margin-top: -16px;
 	}
 
-	.print-only-run-container,
-	.print-only {
+	// .runContainer:first-child {
+	// 	margin-top: 0;
+	// }
+
+	.printOnlyRunContainer,
+	.printOnly {
 		display: initial;
 	}
 
-	.do-not-print {
+	.doNotPrint {
 		display: none;
 	}
 }
