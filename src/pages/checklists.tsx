@@ -6,11 +6,13 @@ import { format } from "date-fns";
 import styles from "./checklists.module.scss";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
-function Checklist({ item, printOnly }: { item: ScheduleItem; printOnly?: boolean }) {
-	const randomDrawingItem = DrawingElements[Math.floor(Math.random() * DrawingElements.length)];
+interface ChecklistProps {
+	item: ScheduleItem;
+	printOnly?: boolean;
+	index?: number;
+}
 
-	console.log(item.scheduledTime)
-
+function Checklist({ item, printOnly, index }: ChecklistProps) {
 	return (
 		<li className={printOnly ? styles.printOnlyRunContainer : styles.runContainer}>
 			<h1 className={styles.runTitle}>
@@ -98,7 +100,7 @@ function Checklist({ item, printOnly }: { item: ScheduleItem; printOnly?: boolea
 				<div className={styles.drawingSection}>
 					{/* This is a section for drawing, so that the tech can draw on the checklist */}
 					<span>
-						Draw {randomDrawingItem}
+						Draw {DrawingElements[(index ?? 0) % DrawingElements.length]}
 					</span>
 				</div>
 			</div>
@@ -117,8 +119,8 @@ function Checklists() {
 
 	return (
 		<ol className={styles.checklistRoot}>
-			{schedule?.map((item) => (
-				<Checklist key={item.id} item={item} />
+			{schedule?.map((item, i) => (
+				<Checklist key={item.id} item={item} index={i} />
 			))}
 			{extraBlanks}
 		</ol>
@@ -280,7 +282,7 @@ function getConsoleType(consoleType: ReturnType<typeof abbreviateConsole>): Cons
 }
 
 const ChecklistItems = {
-	preTech: ["Previous Runner gear gone", "Wipe Down Headsets"],
+	preTech: ["ALL unused gear removed from table", "Wipe Down Headsets"],
 	postConsole: [
 		"Runner's equipment setup",
 		"Runner Info/Pronouns",
@@ -292,21 +294,21 @@ const ChecklistItems = {
 		"Preview audio",
 		"Runner informed about going live",
 	],
-	postTech: ["Speakers Audio", "Monitor Twitch Chat"],
+	postTech: ["Speakers Audio", "Monitor Twitch Chat", "Check if Social Media is rostered, if not, try to take some photos"],
 } as const;
 
 const PCChecklist = [
-	"HDMI from Splitter into PC",
+	"HDMI from OREI Tx into PC",
 	"Monitor on correct source",
 	"Steam/Launcher Overlay Off",
 	"Wipe Down Keyboard + Mouse",
 ] as const;
 
-const HDConsoleChecklist = ["HDMI from Splitter into Console", "Monitor on correct source"] as const;
+const HDConsoleChecklist = ["HDMI from OREI Tx into Console", "Monitor on correct source"] as const;
 
 const UnknownChecklist = ["Discuss with runner how to capture console."] as const;
 
-const ConsoleChecklist = ["HDMI from Splitter into RetroTink", "Monitor on correct source"] as const;
+const ConsoleChecklist = ["HDMI from OREI Tx into RetroTink", "Monitor on correct source"] as const;
 
 function getChecklist(consoleType: ConsoleType) {
 	switch (consoleType) {
@@ -390,13 +392,14 @@ const DrawingElements = [
 	"a Princess",
 	"a Prince",
 	"Clubwho",
+	"nei",
 	"the AusSpeedruns Logo",
-	"your favourite game character",
 	"your favourite console",
+	"your favourite game character",
 	"your favourite game",
 	"your favourite animal",
 	"your favourite food",
-	"your favourite person",
+	"your favourite person/people",
 	"your dream setup",
 	"your dream destination",
 	"your dream mode of transport",

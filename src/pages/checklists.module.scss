@@ -131,6 +131,7 @@
 .runRunners {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 	list-style-position: outside;
 	list-style: none;
 	margin: 0;
@@ -225,7 +226,7 @@
 	bottom: 0;
 	right: 0;
 	width: 25%;
-	height: 250px;
+	height: 75%;
 	border: 1px solid black;
 	padding-left: 6px;
 }

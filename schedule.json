@@ -17,7 +17,7 @@
 			}
 		],
 		"techPlatform": "",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: No graphics"
 	},
 	{
 		"id": "cmb0ep219000aqeo1hyrc96g0",
@@ -43,7 +43,7 @@
 			}
 		],
 		"techPlatform": "PlayStation 2",
-		"specialRequirements": "The two games use different aspect ratios (4:3 & 16:9) so we may need a custom race layout"
+		"specialRequirements": "LAYOUT: Standard Widescreen 2p"
 	},
 	{
 		"id": "cmb0ep22o000bqeo1k5wgza8y",
@@ -63,7 +63,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "Access to both keyboard and controller at same time for 1p2c (will bring own dualshock)"
+		"specialRequirements": "LAYOUT: Widescreen\n\nAccess to both keyboard and controller at same time for 1p2c (will bring own dualshock)"
 	},
 	{
 		"id": "cmb0ep236000dqeo1a14deijo",
@@ -89,7 +89,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "Rando install, rivatuner statsitics server, overbind"
+		"specialRequirements": "LAYOUT: Widescreen Bingo 2p\n\nRando install, rivatuner statsitics server, overbind"
 	},
 	{
 		"id": "cmb0ep239000eqeo1ju74cpja",
@@ -109,7 +109,7 @@
 			}
 		],
 		"techPlatform": "Mini Console (Emulator)",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep23u000fqeo14jhwr218",
@@ -135,11 +135,11 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep245000gqeo1tdq5cmyp",
-		"game": "Bo:Path of the Teal Lotus",
+		"game": "Bo: Path of the Teal Lotus",
 		"category": "Any% No Major Glitches",
 		"platform": "PC",
 		"race": false,
@@ -155,7 +155,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0ep24n000iqeo19ncbcmjf",
@@ -175,7 +175,7 @@
 			}
 		],
 		"techPlatform": "Nintendo Switch",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: GBA"
 	},
 	{
 		"id": "cmb0ep24p000jqeo1eed7zjn0",
@@ -225,7 +225,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "Setup of SA Mod Launcher for crash fixes and modern OS compatibility. Able to be done on setup day. Game will run in 4: 3 @ 1080p (1440x1080)."
+		"specialRequirements": "LAYOUT: Standard\n\nSetup of SA Mod Launcher for crash fixes and modern OS compatibility. Able to be done on setup day. Game will run in 4:3 @ 1080p (1440x1080)."
 	},
 	{
 		"id": "cmb0ep24s000kqeo15arpjrs2",
@@ -245,7 +245,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0ep2170009qeo1i0kwn3am",
@@ -258,7 +258,7 @@
 		"scheduledTime": "2025-07-15T09:20:00.000Z",
 		"runners": [],
 		"techPlatform": "",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: ASNN"
 	},
 	{
 		"id": "cmb0ep25i000lqeo1zn1cegdq",
@@ -278,7 +278,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "I use a controller that needs a 3rd party software to have the ability to use it. Setup is also a bit annoying."
+		"specialRequirements": "LAYOUT: Standard\n\nI use a controller that needs a 3rd party software to have the ability to use it. Setup is also a bit annoying."
 	},
 	{
 		"id": "cmb0ep25n000mqeo18ifxc6oz",
@@ -298,7 +298,7 @@
 			}
 		],
 		"techPlatform": "Nintendo 64",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep25s000nqeo1rsczi5ow",
@@ -318,7 +318,7 @@
 			}
 		],
 		"techPlatform": "PlayStation 2",
-		"specialRequirements": "PAL PS2 required, console to be provided by me"
+		"specialRequirements": "LAYOUT: Standard\n\nPAL PS2 required, console to be provided by me"
 	},
 	{
 		"id": "cmb0ep26a000pqeo1bo3kwi32",
@@ -338,7 +338,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0ep26l000qqeo13v7uhxs6",
@@ -358,7 +358,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "JumpFix mod, pre-game config"
+		"specialRequirements": "LAYOUT: Widescreen\n\nJumpFix mod, pre-game config"
 	},
 	{
 		"id": "cmb0ep26n000rqeo10ke7bzng",
@@ -378,7 +378,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "The cutscenes wigging out is a side effect of skipping a cutscene early on too fast and can easily be avoided.Tech is going to have to be on BALL during some parts if for whatever reason this somehow gets in (blame noops)"
+		"specialRequirements": "LAYOUT: Widescreen\n\nThe cutscenes wigging out is a side effect of skipping a cutscene early on too fast and can easily be avoided. Tech is going to have to be on BALL during some parts if for whatever reason this somehow gets in (blame noops)"
 	},
 	{
 		"id": "cmb0ep270000sqeo1ousmnd7l",
@@ -398,7 +398,7 @@
 			}
 		],
 		"techPlatform": "PlayStation 2",
-		"specialRequirements": "PS2 Memory Card with a save file that has all levels cleared and 0/60 Starfish; can provide my own."
+		"specialRequirements": "LAYOUT: Standard\n\nPS2 Memory Card with a save file that has all levels cleared and 0/60 Starfish; can provide my own."
 	},
 	{
 		"id": "cmb0ep27c000tqeo104l4hw9g",
@@ -418,7 +418,7 @@
 			}
 		],
 		"techPlatform": "Nintendo Switch",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0ep27e000uqeo16qla1eri",
@@ -434,11 +434,11 @@
 				"id": "cm92b6bf8001hy091d44wof7e",
 				"username": "Zanaroo123",
 				"pronouns": "",
-				"twitch": "https: //www.twitch.tv/zanaroo123"
+				"twitch": "https://www.twitch.tv/zanaroo123"
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0ep27u000vqeo1sj8m2dzg",
@@ -458,7 +458,7 @@
 			}
 		],
 		"techPlatform": "Nintendo 64",
-		"specialRequirements": "Not 100% required but it would be very helpful if I can borrow an Australian nintendo 64 power brick so I don't need to bring a JPN to Aus transformer"
+		"specialRequirements": "LAYOUT: Standard\n\nNot 100% required but it would be very helpful if I can borrow an Australian nintendo 64 power brick so I don't need to bring a JPN to Aus transformer"
 	},
 	{
 		"id": "cmb0ep280000wqeo1tz9olfs0",
@@ -478,7 +478,7 @@
 			}
 		],
 		"techPlatform": "Nintendo WiiU",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0ep28g000yqeo1dssiceje",
@@ -498,7 +498,7 @@
 			}
 		],
 		"techPlatform": "Nintendo Wii",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep28i000zqeo1xfssnv00",
@@ -524,7 +524,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "Requires downpatch"
+		"specialRequirements": "LAYOUT: Widescreen\n\nRequires downpatch"
 	},
 	{
 		"id": "cmb0ep22q000cqeo1fchph4yn",
@@ -537,7 +537,7 @@
 		"scheduledTime": "2025-07-16T09:20:00.000Z",
 		"runners": [],
 		"techPlatform": "",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: ASNN"
 	},
 	{
 		"id": "cmb0ep2980012qeo1u8nwsffm",
@@ -575,7 +575,7 @@
 			}
 		],
 		"techPlatform": "Nintendo GameCube",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep29y0014qeo1udqrsp61",
@@ -595,7 +595,7 @@
 			}
 		],
 		"techPlatform": "PlayStation 2",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep2aa0016qeo15272mva7",
@@ -615,7 +615,7 @@
 			}
 		],
 		"techPlatform": "Xbox Series",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0ep2b10019qeo1bfip0n2c",
@@ -641,7 +641,7 @@
 			}
 		],
 		"techPlatform": "Nintendo New 2DS",
-		"specialRequirements": "Need \"New2DSXL\" Viewer Software for capture and drivers which can be found here - https://www.merki.net/info/?lang=en&v=6cc98ba2045f#downloads"
+		"specialRequirements": "LAYOUT: DS 2p\n\nNeed \"New2DSXL\" Viewer Software for capture and drivers which can be found here - https://www.merki.net/info/?lang=en&v=6cc98ba2045f#downloads"
 	},
 	{
 		"id": "cmb0ep2bj001bqeo1y1a9h78i",
@@ -661,7 +661,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0ep2bt001cqeo16fnksryq",
@@ -681,7 +681,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "We run this game windowed using DXWND. I also use AutoHotkey to rebind a couple of controls. All software including the game does NOT need to be downloaded by ASM staff as I can run these programs from my own local file structure which will include the game, DXWND, AutoHotkey, and save file back ups"
+		"specialRequirements": "LAYOUT: Standard\n\nWe run this game windowed using DXWND. I also use AutoHotkey to rebind a couple of controls. All software including the game does NOT need to be downloaded by ASM staff as I can run these programs from my own local file structure which will include the game, DXWND, AutoHotkey, and save file back ups"
 	},
 	{
 		"id": "cmb0ep2ch001fqeo17sdugk9i",
@@ -701,7 +701,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "Style Switcher Mod. Fixes some bugs despite not actually using the style switch functionality of the mod.\r\n(The entire game can be put on a small USB I can happily provide)"
+		"specialRequirements": "LAYOUT: Widescreen\n\nStyle Switcher Mod. Fixes some bugs despite not actually using the style switch functionality of the mod.\n(The entire game can be put on a small USB I can happily provide)"
 	},
 	{
 		"id": "cmb0ep249000hqeo1ftkbmmhd",
@@ -714,7 +714,7 @@
 		"scheduledTime": "2025-07-17T09:20:00.000Z",
 		"runners": [],
 		"techPlatform": "",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: ASNN"
 	},
 	{
 		"id": "cmb0ep2cs001gqeo1io2cuwc0",
@@ -734,7 +734,7 @@
 			}
 		],
 		"techPlatform": "Nintendo Switch",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0ep2cv001hqeo1il2hkrl9",
@@ -754,7 +754,7 @@
 			}
 		],
 		"techPlatform": "Sega Mega Drive",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep2d6001iqeo1fnmxfta1",
@@ -774,7 +774,7 @@
 			}
 		],
 		"techPlatform": "Nintendo Wii",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep2dj001jqeo1sphl5fxo",
@@ -794,7 +794,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "controller required (i'll bring)"
+		"specialRequirements": "LAYOUT: Standard\n\ncontroller required (i'll bring)"
 	},
 	{
 		"id": "cmb0ep2dl001kqeo1ono15v4f",
@@ -814,7 +814,7 @@
 			}
 		],
 		"techPlatform": "Nintendo WiiU",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: GBA"
 	},
 	{
 		"id": "cmb0ep2dt001lqeo1wttix29m",
@@ -834,7 +834,7 @@
 			}
 		],
 		"techPlatform": "Nintendo WiiU",
-		"specialRequirements": "Probably less electronic equipment if possible around where I would play the game"
+		"specialRequirements": "LAYOUT: Standard\n\nProbably less electronic equipment if possible around where I would play the game"
 	},
 	{
 		"id": "cmb0ep2e6001mqeo149ppvltv",
@@ -854,7 +854,7 @@
 			}
 		],
 		"techPlatform": "PlayStation 2",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep2e8001nqeo1glfzv5zg",
@@ -874,7 +874,7 @@
 			}
 		],
 		"techPlatform": "Nintendo Switch",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0ep2ei001oqeo18ukkxx1m",
@@ -894,7 +894,7 @@
 			}
 		],
 		"techPlatform": "Xbox",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep2ew001pqeo1h8jnwlr5",
@@ -914,7 +914,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0ep2fg001sqeo1fxm1pj8f",
@@ -934,7 +934,7 @@
 			}
 		],
 		"techPlatform": "Nintendo 64",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep2ft001uqeo1s6f3xzb7",
@@ -960,7 +960,7 @@
 			}
 		],
 		"techPlatform": "PlayStation 2",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard\n\nThere will be a video to be played before starting. Make sure that the audio monitor \"Filter\" is on the video and set to BEHRINGER OUT 1-2"
 	},
 	{
 		"id": "cmb0ep2g5001vqeo1gqvthvk0",
@@ -980,7 +980,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "PartyMod game fix"
+		"specialRequirements": "LAYOUT: Standard\n\nPartyMod game fix"
 	},
 	{
 		"id": "cmb0ep2gt001xqeo1gnclw8r1",
@@ -1006,7 +1006,7 @@
 			}
 		],
 		"techPlatform": "Nintendo SNES",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep2hj0020qeo16muetecp",
@@ -1026,7 +1026,7 @@
 			}
 		],
 		"techPlatform": "PlayStation 2",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep267000oqeo15boymk8z",
@@ -1039,7 +1039,7 @@
 		"scheduledTime": "2025-07-18T09:10:00.000Z",
 		"runners": [],
 		"techPlatform": "",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: ASNN"
 	},
 	{
 		"id": "cmb0jh33z0033qeo1akbl1vea",
@@ -1059,7 +1059,7 @@
 			}
 		],
 		"techPlatform": "hyper neo geo 64",
-		"specialRequirements": "Video capture through 15 kHz scart, audio is through 3.5mm \n"
+		"specialRequirements": "LAYOUT: Standard\n\nVideo capture through 15 kHz scart, audio is through 3.5mm \n"
 	},
 	{
 		"id": "cmb0j90oi0031qeo1fy5aw8u7",
@@ -1079,7 +1079,7 @@
 			}
 		],
 		"techPlatform": "PlayStation 2",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0jav7e0032qeo1uor1g6ld",
@@ -1099,7 +1099,7 @@
 			}
 		],
 		"techPlatform": "SNES",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0j6c7t0030qeo18lp8q35y",
@@ -1119,7 +1119,7 @@
 			}
 		],
 		"techPlatform": "Xbox 360",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0jj4oq0034qeo1qlilv6dt",
@@ -1139,7 +1139,7 @@
 			}
 		],
 		"techPlatform": "Nintendo Switch NSO",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0jkzsf0035qeo1vodncbum",
@@ -1159,7 +1159,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0jmgsa0036qeo15no2xw0s",
@@ -1179,7 +1179,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "Partymod Game Fix\n"
+		"specialRequirements": "LAYOUT: Standard\n\nPartymod Game Fix\n"
 	},
 	{
 		"id": "cmb0jnoqv0037qeo1kq95b4mp",
@@ -1199,7 +1199,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "Could use Dxwnd to window but can't imagine it is critical\n"
+		"specialRequirements": "LAYOUT: Widescreen\n\nCould use Dxwnd to window but can't imagine it is critical\n"
 	},
 	{
 		"id": "cmb0jow6a0038qeo1190kl60a",
@@ -1219,7 +1219,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "I'll need to provide the game as it was my high school project from 2015. Credits for the game contain my full name when accessing credits, finishing the game or closing the game. Ideally I'd like to avoid doxing myself so please take that into consideration.\n"
+		"specialRequirements": "LAYOUT: Standard\n\nI'll need to provide the game as it was my high school project from 2015. Credits for the game contain my full name when accessing credits, finishing the game or closing the game. Ideally I'd like to avoid doxing myself so please take that into consideration.\n"
 	},
 	{
 		"id": "cmb0jq2ro0039qeo1kgxzx7bt",
@@ -1239,7 +1239,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0ep2ik0025qeo12m2ya0kw",
@@ -1259,7 +1259,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "I play using a controller that i'll bring"
+		"specialRequirements": "LAYOUT: Widescreen\n\nI play using a controller that i'll bring"
 	},
 	{
 		"id": "cmb0ep28q0010qeo1dqbnu0gi",
@@ -1279,7 +1279,7 @@
 			}
 		],
 		"techPlatform": "PlayStation 5",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0ep2960011qeo11xl8qp60",
@@ -1299,7 +1299,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "Xbox One controller (needs a USB-A port). I will provide the controller."
+		"specialRequirements": "LAYOUT: Widescreen\n\nXbox One controller (needs a USB-A port). I will provide the controller."
 	},
 	{
 		"id": "cmb0ep29f0013qeo1b8khguhi",
@@ -1319,7 +1319,7 @@
 			}
 		],
 		"techPlatform": "PlayStation 2",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep2a50015qeo1bdmq1a6p",
@@ -1339,7 +1339,7 @@
 			}
 		],
 		"techPlatform": "Nintendo 64",
-		"specialRequirements": "A laptop is usually used in tandem when playing to track items - this can be done by myself as a runner or by a caster."
+		"specialRequirements": "LAYOUT: Standard\n\nA laptop is usually used in tandem when playing to track items - this can be done by myself as a runner or by a caster."
 	},
 	{
 		"id": "cmb0ep2an0017qeo1kf05twk4",
@@ -1359,7 +1359,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "It's run on v1.0.11\r\nhttps://www.speedrun.com/everhood/guides/wu285\r\nIf it doesn't work replace dotnet DepotDownloader.dll with .\\DepotDownloader.exe\r\n\r\n"
+		"specialRequirements": "LAYOUT: Standard?\n\nIt's run on v1.0.11\nhttps://www.speedrun.com/everhood/guides/wu285\nIf it doesn't work replace dotnet DepotDownloader.dll with .\\DepotDownloader.exe\n\n"
 	},
 	{
 		"id": "cmb0ep2au0018qeo104anw45d",
@@ -1379,7 +1379,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0ep2be001aqeo1vc6subnm",
@@ -1399,7 +1399,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "Monitor set to 120hz for vsync, access to game specific steam gamepad remapping for input binding"
+		"specialRequirements": "LAYOUT: Widescreen\n\nMonitor set to 120hz for vsync, access to game specific steam gamepad remapping for input binding"
 	},
 	{
 		"id": "cmb0ep2c6001dqeo1nfj9wrsw",
@@ -1425,7 +1425,7 @@
 			}
 		],
 		"techPlatform": "Board Game",
-		"specialRequirements": "We will need 5-10 minutes before the run starts to explain the game & rules to the audience!"
+		"specialRequirements": "LAYOUT: Top Bar Only\n\nWe will need 5-10 minutes before the run starts to explain the game & rules to the audience!"
 	},
 	{
 		"id": "cmb0ep2c8001eqeo1zdisel5s",
@@ -1445,7 +1445,7 @@
 			}
 		],
 		"techPlatform": "Nintendo Wii",
-		"specialRequirements": "If crowd control, then will need to be run on emulator."
+		"specialRequirements": "LAYOUT: Standard\n\nIf crowd control, then will need to be run on emulator."
 	},
 	{
 		"id": "cmb0ep2ey001qqeo1mmfp81df",
@@ -1465,7 +1465,7 @@
 			}
 		],
 		"techPlatform": "Xbox",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep2f5001rqeo1ak3c8mrj",
@@ -1485,7 +1485,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "Lucas Mod Launcher"
+		"specialRequirements": "LAYOUT: Standard\n\nLucas Mod Launcher"
 	},
 	{
 		"id": "cmb0ep283000xqeo14pr5bpsd",
@@ -1498,7 +1498,7 @@
 		"scheduledTime": "2025-07-19T09:20:00.000Z",
 		"runners": [],
 		"techPlatform": "",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: ASNN"
 	},
 	{
 		"id": "cmb0ep2fi001tqeo17mhz7zz1",
@@ -1518,7 +1518,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "I use a controller that needs a 3rd party software to function properly"
+		"specialRequirements": "LAYOUT: Widescreen\n\nI use a controller that needs a 3rd party software to function properly"
 	},
 	{
 		"id": "cmb0ep2g7001wqeo17ne0tud9",
@@ -1538,7 +1538,7 @@
 			}
 		],
 		"techPlatform": "Playstation 1 (NTSC)",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep2gw001yqeo10u2ahh0b",
@@ -1558,7 +1558,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmceddmio00ayqeo1s1ad51bv",
@@ -1578,7 +1578,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep2hl0021qeo1aqzykmxp",
@@ -1598,7 +1598,7 @@
 			}
 		],
 		"techPlatform": "Gamecube",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep2hx0022qeo1qpp88dby",
@@ -1618,7 +1618,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
 		"id": "cmb0ep2ib0023qeo1t3u0cm3j",
@@ -1644,7 +1644,7 @@
 			}
 		],
 		"techPlatform": "Nintendo GameCube Game Boy Player",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: GBC"
 	},
 	{
 		"id": "cmb0ep2ie0024qeo1fpe6e4kg",
@@ -1664,7 +1664,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "w/ Live Band\n\nPC version with Partymod"
+		"specialRequirements": "LAYOUT: Standard Band\n\nw/ Live Band\n\nPC version with Partymod"
 	},
 	{
 		"id": "cmb0ep2j30026qeo1rnc95y2y",
@@ -1684,7 +1684,7 @@
 			}
 		],
 		"techPlatform": "Nintendo 64",
-		"specialRequirements": "w/ Live Band, NTSC Nintendo 64 console (can provide my own)"
+		"specialRequirements": "LAYOUT: Standard Band\n\nw/ Live Band, NTSC Nintendo 64 console (can provide my own)"
 	},
 	{
 		"id": "cmb0ep2j50027qeo1uzpn3exp",
@@ -1704,7 +1704,7 @@
 			}
 		],
 		"techPlatform": "Nintendo GameCube",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: GBA"
 	},
 	{
 		"id": "cmb0ep2je0028qeo19mgj18wt",
@@ -1742,7 +1742,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "Game: Golfaria | Runner: Raikou | Estimate: 15:00 Game: Camouflage | Runner: Genba96 | Estimate: 6:00 Game: Night Manor | Runner: Genba96 | Estimate: 3:00 Game: Velgress | Runner: Stylonide | Estimate: 10:00 Game: Hyper Contender | Runner: Stylonide | Estimate: 10:00 Game: Mortol 2 | Runner: Rexaaayyy | Estimate 5:00 Game: Waldorf's Journey | Runner: Rexaaayyy | Estimate: 5:00"
+		"specialRequirements": "LAYOUT: Widescreen\n\nGames:\n - Golfaria | Runner: Raikou | Estimate: 15:00\n - Camouflage | Runner: Genba96 | Estimate: 6:00\n - Night Manor | Runner: Genba96 | Estimate: 3:00\n - Velgress | Runner: Stylonide | Estimate: 10:00\n - Hyper Contender | Runner: Stylonide | Estimate: 10:00\n - Mortol 2 | Runner: Rexaaayyy | Estimate 5:00\n - Waldorf's Journey | Runner: Rexaaayyy | Estimate: 5:00"
 	},
 	{
 		"id": "cmb0ep2jr0029qeo1jpb2xgvi",
@@ -1762,7 +1762,7 @@
 			}
 		],
 		"techPlatform": "Xbox 360",
-		"specialRequirements": "Needs a capture card for the xbox 360 (I use a elgato hd60s)"
+		"specialRequirements": "LAYOUT: Widescreen\n\nNeeds a capture card for the xbox 360 (I use a elgato hd60s)"
 	},
 	{
 		"id": "cmb0ep2ju002aqeo1yr4gypgs",
@@ -1782,7 +1782,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "This game must be played with Vsync on and at 60fps, if not the run is impossible."
+		"specialRequirements": "LAYOUT: Widescreen\n\nThis game must be played with Vsync on and at 60fps, if not the run is impossible."
 	},
 	{
 		"id": "cmb0ep2k3002bqeo14pkglkz6",
@@ -1802,7 +1802,7 @@
 			}
 		],
 		"techPlatform": "PlayStation 2",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
 		"id": "cmb0ep2kf002cqeo1wry4y0a7",
@@ -1822,7 +1822,7 @@
 			}
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "DX WND to Window the Game\r\nJoy to Key to get my PS2 Controller working on the program"
+		"specialRequirements": "LAYOUT: Standard\n\nDX WND to Window the Game\nJoy to Key to get my PS2 Controller working on the program"
 	},
 	{
 		"id": "cmb0ep2kg002dqeo1akbtddb8",
@@ -1842,6 +1842,6 @@
 			}
 		],
 		"techPlatform": "",
-		"specialRequirements": ""
+		"specialRequirements": "LAYOUT: No graphics"
 	}
 ]
