@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ausspeedruns/cables/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ausspeedruns/cables/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -65,13 +65,14 @@ const config = {
           src: 'img/AusSpeedruns-Logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/docs/audio/', label: 'Audio', position: 'left'},
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
+          {to: '/docs/Tutorials/', label: 'Tutorials', position: 'left'},
+          {to: '/docs/Hardware/', label: 'Hardware', position: 'left'},
           {to: '/checklists/', label: 'Checklists', position: 'left'},
           {
             href: 'https://github.com/ausspeedruns/cables',
