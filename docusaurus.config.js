@@ -67,8 +67,8 @@ const config = {
 					src: "img/AusSpeedruns-Logo.svg",
 				},
 				items: [
-					{ to: "/docs/Tutorials/", label: "Tutorials", position: "left" },
-					{ to: "/docs/Hardware/", label: "Hardware", position: "left" },
+					{ to: "/docs/tutorials/", label: "Tutorials", position: "left" },
+					{ to: "/docs/hardware/", label: "Hardware", position: "left" },
 					{ to: "/checklists/", label: "Checklists", position: "left" },
 					{
 						href: "https://github.com/ausspeedruns/cables",
