@@ -12,6 +12,19 @@ If you are not an AusSpeedruns Tech member please do reach out but understand th
 
 ## Updates
 
+### ASAP2025
+
+- New panel background design
+- Visual tweaks to Material UI theme
+- New "Stage View" dashboard panel
+  - Deprecates Couch, Game Audio and Run Info panels
+- Host is now considered a commentator rather than a separate entity
+- Stream panel deprecated
+
+### Missed a bunch
+
+- Whoops
+
 ### ASGX2024
 
 - Runner Tablet Redesign

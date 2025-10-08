@@ -1,10 +1,7 @@
 ---
-title: NodeCG
+title: How To
+sidebar_position: 0
 ---
-
-## How-Tos
-
-Link to [NodeCG](http://localhost:9090/)
 
 ### Change the current run
 
@@ -13,7 +10,7 @@ Link to [NodeCG](http://localhost:9090/)
 3. Click the run
 4. Click play
 
-![a](./change-run.png)
+![Change Run](./change-run.png)
 
 ### Edit a run
 
@@ -23,7 +20,7 @@ Link to [NodeCG](http://localhost:9090/)
 4. Edit the information needed
 5. Save
 
-![a](./edit-run.png)
+![Edit Run](./edit-run.png)
 
 ### Add a run
 
@@ -33,7 +30,7 @@ Link to [NodeCG](http://localhost:9090/)
 4. Fill in the information for the run
 5. Save
 
-![a](./new-run.png)
+![New Run](./new-run.png)
 
 :::note
 Fields highlighted are the required fields.
@@ -44,7 +41,7 @@ Fields highlighted are the required fields.
 1. Go to the **Scene Editing** tab at the top.
 2. Drag the runners names
 
-![a](./change-name-order.png)
+![Change runner name order](./change-name-order.png)
 
 ### Change the game audio in a race/coop
 
