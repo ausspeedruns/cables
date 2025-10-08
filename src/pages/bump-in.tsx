@@ -44,7 +44,7 @@ const TASKS: Task[] = [
 	},
 	{
 		id: "cable-management",
-		title: "Clean up Cables once all is done",
+		title: "nei to clean up cables and safety check once all is done",
 		deps: ["test-headset-audio-speakers", "capture-chain"],
 	},
 ];
