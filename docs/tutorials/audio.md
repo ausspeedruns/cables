@@ -6,6 +6,16 @@ For Audio you are in charge of how it sounds on stream and how it sounds in pers
 
 The audio system is a Behringer X32 Rack which is supplemented by automation that runs in NodeCG. There are 6 headsets and a speaker setup.
 
+## Diagrams
+
+### Game Audio
+
+![Game Audio](./audio-flow-game.png)
+
+### Microphone/Headset Audio
+
+![Microphone/Headset Audio](./audio-flow-headset.png)
+
 ## Headsets
 
 - Runner/Commentator

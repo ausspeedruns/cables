@@ -1,4 +1,4 @@
-# software manager instructions
+# Technical Director Notes
 
 Instructions that normally Clubwho does but if he were to be hit by a bus (or enjoying the Formula 1) these instructions are important.
 
@@ -18,7 +18,7 @@ You might have to move a camera back to normal but that's it. Just regular progr
 
 ## End of Event
 
-At the end of the event the coordinator tends to do another speech thanking everyone and wrapping the event up. Use the "IRL" scene. Ask when the coordinator would like to roll the credits (normally they will just call it out to start the credits). On the "ASM Misc" tab in NodeCG under the "Full Cam" panel press "Roll Credits".
+At the end of the event the coordinator tends to do another speech thanking everyone and wrapping the event up. Use the "IRL" scene. Ask when the coordinator would like to roll the credits (normally they will just call it out to start the credits). On the "ASM Misc" tab in NodeCG under the "Full Cam" panel press "Roll Credits". Then DISABLE the transition source and run a "Fade to Black" transition in OBS. Kill stream.
 
 :::warning Audio
 You may need to manually mix during the scene. Remember both Stream AND Speakers.

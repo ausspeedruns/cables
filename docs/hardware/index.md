@@ -1,5 +1,5 @@
 ---
-title: Hardware
+title: Flow Diagrams
 ---
 
 Here is an overview of the main devices used at our events, and how they connect with each other.
