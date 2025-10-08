@@ -70,6 +70,7 @@ const config = {
 					{ to: "/docs/tutorials/", label: "Tutorials", position: "left" },
 					{ to: "/docs/hardware/", label: "Hardware", position: "left" },
 					{ to: "/checklists/", label: "Checklists", position: "left" },
+					{ to: "/bump-in/", label: "Bump-In", position: "left" },
 					{
 						href: "https://github.com/ausspeedruns/cables",
 						label: "GitHub",

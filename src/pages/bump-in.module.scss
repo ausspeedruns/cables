@@ -1,0 +1,152 @@
+.page {
+  padding: 12px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.main {
+  background: var(--ifm-background-color);
+  min-height: calc(100vh - var(--ifm-navbar-height, 60px));
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: var(--ifm-background-color);
+  z-index: 1;
+  padding-bottom: 8px;
+}
+
+.header h1 {
+  font-size: 20px;
+  margin: 6px 0 8px;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.secondary {
+  font-size: 14px;
+  padding: 6px 10px;
+}
+
+.hint {
+  margin: 6px 0 0;
+  color: var(--ifm-color-secondary-darkest);
+  font-size: 12px;
+}
+
+.section {
+  margin-top: 14px;
+}
+
+.blockedHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blockedHeader h2 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.count {
+  color: var(--ifm-color-secondary-darkest);
+}
+
+.list {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.item {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 10px;
+  padding: 10px;
+  background: var(--ifm-background-surface-color);
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+
+  .completed & {
+    opacity: 0.6;
+    text-decoration: line-through;
+  }
+}
+
+.label input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+}
+
+.title {
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.note {
+  margin-top: 6px;
+  color: var(--ifm-color-secondary-darkest);
+  font-size: 13px;
+}
+
+.deps, .blockedReason {
+  margin-top: 8px;
+  color: var(--ifm-color-secondary-darkest);
+  font-size: 12px;
+}
+
+.dep {
+  text-decoration: none;
+}
+
+.depDone {
+  color: var(--ifm-color-primary);
+}
+
+.blocked {
+  opacity: 0.9;
+}
+
+.blockedRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.linkButton {
+  appearance: none;
+  background: none;
+  border: none;
+  color: var(--ifm-color-primary);
+  padding: 0;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.empty {
+  margin: 8px 0 0;
+  color: var(--ifm-color-secondary-darkest);
+}
