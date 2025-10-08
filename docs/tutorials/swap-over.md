@@ -52,7 +52,8 @@ We need to get rid of the previous runner and find the next runner.
 ### Stage Hand {#setup-stage-hand}
 
 1. Setup next runner's equipment (consoles, controllers, etc).
-2. Assist runners and commentators with the Runner Tablet to make sure their name, headset and personal audio levels are correct.
+2. If the runner is using an [SD Console](./video-flow.md#sd-consoles) then help setup the RetroTINK.
+3. Assist runners and commentators with the Runner Tablet to make sure their name, headset and personal audio levels are correct.
 
 ### Stream Tech {#setup-stream-tech}
 
