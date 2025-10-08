@@ -1,4 +1,4 @@
-# Software Bump-In
+# software manager instructions
 
 Instructions that normally Clubwho does but if he were to be hit by a bus (or enjoying the Formula 1) these instructions are important.
 
