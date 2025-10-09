@@ -96,13 +96,6 @@ function Checklist({ item, printOnly, index }: ChecklistProps) {
 						.split("\n")
 						.flatMap((val, idx, arr) => (idx === arr.length - 1 ? val : [val, <br key={idx} />]))}
 				</span>
-
-				<div className={styles.drawingSection}>
-					{/* This is a section for drawing, so that the tech can draw on the checklist */}
-					<span>
-						Draw {DrawingElements[(index ?? 0) % DrawingElements.length]}
-					</span>
-				</div>
 			</div>
 		</li>
 	);
@@ -361,47 +354,3 @@ const BlankChecklist: ScheduleItem = {
 	techPlatform: "",
 	specialRequirements: "",
 };
-
-// "Draw ______"
-const DrawingElements = [
-	"a Dinosaur",
-	"a Cat",
-	"a Dog",
-	"a Fish",
-	"a Bird",
-	"a Flower",
-	"a Tree",
-	"the Sun",
-	"the Moon",
-	"a Star",
-	"a Heart",
-	"a Cloud",
-	"a Rainbow",
-	"a Lightning Storm",
-	"a Snowflake",
-	"some Fire",
-	"some Water",
-	"the Earth",
-	"Space",
-	"a Rocket",
-	"an Alien",
-	"a Robot",
-	"a Monster",
-	"a Superhero",
-	"a Villain",
-	"a Princess",
-	"a Prince",
-	"Clubwho",
-	"nei",
-	"the AusSpeedruns Logo",
-	"your favourite console",
-	"your favourite game character",
-	"your favourite game",
-	"your favourite animal",
-	"your favourite food",
-	"your favourite person/people",
-	"your dream setup",
-	"your dream destination",
-	"your dream mode of transport",
-	"anything you want"
-];
