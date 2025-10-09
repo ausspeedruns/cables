@@ -1,1847 +1,529 @@
 [
 	{
-		"id": "cmb0ep2140008qeo1ar36i4vm",
-		"game": "INTRO SPEECH",
-		"category": "Any%",
-		"platform": "IRL",
+		"id": "cmdu47q0x002v4e5eyqtv4hah",
+		"game": "Opening Speech",
+		"category": "Introductions",
+		"platform": "Stage",
 		"race": false,
 		"coop": false,
-		"estimate": "0:05:00",
-		"scheduledTime": "2025-07-14T22:30:00.000Z",
+		"estimate": "0:00",
+		"scheduledTime": "2025-10-09T22:00:00.000Z",
 		"runners": [
-			{
-				"id": "cl168p333131550ip74a6tfpue",
-				"username": "Noops",
-				"pronouns": "He/Him",
-				"twitch": "Noops_AU"
-			}
+			{ "id": "cl37927ao499980ilsbpeb5x88", "username": "Astrious", "pronouns": "He/Him", "twitch": "Astrious" }
 		],
-		"techPlatform": "",
-		"specialRequirements": "LAYOUT: No graphics"
+		"techPlatform": "Stage",
+		"specialRequirements": "LAYOUT: Full Screen"
 	},
 	{
-		"id": "cmb0ep219000aqeo1hyrc96g0",
-		"game": "Spyro: Year of the Dragon",
-		"category": "Original vs Reignited Race",
-		"platform": "PlayStation 1",
-		"race": true,
-		"coop": false,
-		"estimate": "1:00:00",
-		"scheduledTime": "2025-07-14T22:45:00.000Z",
-		"runners": [
-			{
-				"id": "cl16516a838960ip796ki29zt",
-				"username": "Dactyly",
-				"pronouns": "",
-				"twitch": "Dactyly"
-			},
-			{
-				"id": "cl4hqbkvs806600iruuindznwf",
-				"username": "Surf",
-				"pronouns": "He/Him",
-				"twitch": "surf_sr"
-			}
-		],
-		"techPlatform": "PlayStation 2",
-		"specialRequirements": "LAYOUT: Standard Widescreen 2p"
-	},
-	{
-		"id": "cmb0ep22o000bqeo1k5wgza8y",
-		"game": "Lego Batman 3: Beyond Gotham",
-		"category": "All Adam West in Peril",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "0:50:00",
-		"scheduledTime": "2025-07-14T23:55:00.000Z",
-		"runners": [
-			{
-				"id": "cl123kwvb117330iqqqxb01bvu",
-				"username": "Craigelbagel001",
-				"pronouns": "He/Him",
-				"twitch": "Craigelbagel001"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen\n\nAccess to both keyboard and controller at same time for 1p2c (will bring own dualshock)"
-	},
-	{
-		"id": "cmb0ep236000dqeo1a14deijo",
-		"game": "Hollow Knight",
-		"category": "3 Lines Bingo",
-		"platform": "PC",
-		"race": true,
-		"coop": false,
-		"estimate": "2:00:00",
-		"scheduledTime": "2025-07-15T00:55:00.000Z",
-		"runners": [
-			{
-				"id": "cl1v7xh8l448270ik2uvuuqb8p",
-				"username": "ins0mnia",
-				"pronouns": "she/her",
-				"twitch": "ins0mniaSR"
-			},
-			{
-				"id": "cl39vdiy813090ir6owemmqnu",
-				"username": "vichisuki",
-				"pronouns": "She/Her",
-				"twitch": "vichisuki"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen Bingo 2p\n\nRando install, rivatuner statsitics server, overbind"
-	},
-	{
-		"id": "cmb0ep239000eqeo1ju74cpja",
-		"game": "Jumping Jackson",
-		"category": "Game A Any%",
-		"platform": "Amiga",
-		"race": false,
-		"coop": false,
-		"estimate": "0:30:00",
-		"scheduledTime": "2025-07-15T03:05:00.000Z",
-		"runners": [
-			{
-				"id": "cluysb2zd003wln086y6bsbia",
-				"username": "StingySeagull",
-				"pronouns": "He/Him",
-				"twitch": "StingySeagull"
-			}
-		],
-		"techPlatform": "Mini Console (Emulator)",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0ep23u000fqeo14jhwr218",
-		"game": "Fireboy and Watergirl 1 - The Forest Temple",
-		"category": "Any% 2P",
-		"platform": "PC",
-		"race": true,
-		"coop": true,
-		"estimate": "0:25:00",
-		"scheduledTime": "2025-07-15T03:45:00.000Z",
-		"runners": [
-			{
-				"id": "cl11znqcy86810iqqbqvjdpqp",
-				"username": "hsblue",
-				"pronouns": "he/him",
-				"twitch": "hsblue"
-			},
-			{
-				"id": "clu96y8rf0007ln08h7db536s",
-				"username": "JoelZee",
-				"pronouns": "",
-				"twitch": "JoelZee"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0ep245000gqeo1tdq5cmyp",
-		"game": "Bo: Path of the Teal Lotus",
-		"category": "Any% No Major Glitches",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "1:30:00",
-		"scheduledTime": "2025-07-15T04:20:00.000Z",
-		"runners": [
-			{
-				"id": "clb62sobz98150in4i0r7sbp3",
-				"username": "Geolubread",
-				"pronouns": "He/Him",
-				"twitch": "Geolubread"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen"
-	},
-	{
-		"id": "cmb0ep24n000iqeo19ncbcmjf",
-		"game": "Castlevania: Harmony of Dissonance",
-		"category": "Maxim Any%",
+		"id": "cmdu47q1k002y4e5e81akt023",
+		"game": "Kingdom Hearts: Chain of Memories",
+		"category": "Riku's Story",
 		"platform": "Nintendo Game Boy Advance",
 		"race": false,
 		"coop": false,
-		"estimate": "0:05:00",
-		"scheduledTime": "2025-07-15T06:00:00.000Z",
-		"runners": [
-			{
-				"id": "cl11z89d262030iqq3eq1oow1",
-				"username": "Pichy_Stockmann",
-				"pronouns": "She/Her",
-				"twitch": "pichy_and_pals"
-			}
-		],
-		"techPlatform": "Nintendo Switch",
-		"specialRequirements": "LAYOUT: GBA"
+		"estimate": "1:30:00",
+		"scheduledTime": "2025-10-09T22:05:00.000Z",
+		"runners": [{ "id": "cl164ys4925060ip7bqtmmxjt", "username": "AeonFrodo", "pronouns": "", "twitch": "AeonFrodo" }],
+		"techPlatform": "Nintendo GameCube Game Boy Player",
+		"specialRequirements": "GBA Player requires a different layout that I think Clubwho knows about\nLAYOUT: GBA"
 	},
 	{
-		"id": "cmb0ep24p000jqeo1eed7zjn0",
-		"game": "Sonic Adventure DX",
-		"category": "All Stories Relay",
-		"platform": "PC",
-		"race": true,
-		"coop": true,
-		"estimate": "2:15:00",
-		"scheduledTime": "2025-07-15T06:15:00.000Z",
-		"runners": [
-			{
-				"id": "cl2ol4g2142150io5okvvp5jg",
-				"username": "InputEvelution",
-				"pronouns": "She/Her",
-				"twitch": ""
-			},
-			{
-				"id": "clt5xt5wl000xpg087rf16cqr",
-				"username": "IcyKairi",
-				"pronouns": "She/Her",
-				"twitch": "icykairi"
-			},
-			{
-				"id": "clh31e961001io108rqfnpaqk",
-				"username": "FoksMachine",
-				"pronouns": "She/Her",
-				"twitch": "FoksMachine"
-			},
-			{
-				"id": "cl2b5a6r5651270ik2cj5tj7ih",
-				"username": "Yuki_Layla",
-				"pronouns": "She/Her",
-				"twitch": "YukiLayla"
-			},
-			{
-				"id": "cl1lpypqe275530ik2ncm0y65e",
-				"username": "LaceyStripes",
-				"pronouns": "She/Her",
-				"twitch": "LaceyStripes"
-			},
-			{
-				"id": "cl11zmvov84510iqqfzmo4u63",
-				"username": "stylonide",
-				"pronouns": "",
-				"twitch": "stylonide"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Standard\n\nSetup of SA Mod Launcher for crash fixes and modern OS compatibility. Able to be done on setup day. Game will run in 4:3 @ 1080p (1440x1080)."
-	},
-	{
-		"id": "cmb0ep24s000kqeo15arpjrs2",
-		"game": "Pru the Pigeon",
-		"category": "100%",
-		"platform": "PC",
+		"id": "cmdu47q1m002z4e5ezx1f8cii",
+		"game": "Mega Man 2",
+		"category": "Normal Zipless",
+		"platform": "Nintendo NES",
 		"race": false,
 		"coop": false,
-		"estimate": "0:30:00",
-		"scheduledTime": "2025-07-15T08:40:00.000Z",
-		"runners": [
-			{
-				"id": "cli00hz7r0014mm08zt5wkmur",
-				"username": "ChillyPepper",
-				"pronouns": "He/Him",
-				"twitch": "chilly_pepper"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen"
-	},
-	{
-		"id": "cmb0ep2170009qeo1i0kwn3am",
-		"game": "ASNN DAY 1",
-		"category": "NEWS",
-		"platform": "IRL",
-		"race": false,
-		"coop": false,
-		"estimate": "0:10:00",
-		"scheduledTime": "2025-07-15T09:20:00.000Z",
-		"runners": [],
-		"techPlatform": "",
-		"specialRequirements": "LAYOUT: ASNN"
-	},
-	{
-		"id": "cmb0ep25i000lqeo1zn1cegdq",
-		"game": "Monsters Inc, Scream Team",
-		"category": "Any% No Medal Duplication",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "0:35:00",
-		"scheduledTime": "2025-07-15T09:30:00.000Z",
-		"runners": [
-			{
-				"id": "cmacp2jrk004jy091v1icfzlu",
-				"username": "Bamford",
-				"pronouns": "",
-				"twitch": "Bamford"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Standard\n\nI use a controller that needs a 3rd party software to have the ability to use it. Setup is also a bit annoying."
-	},
-	{
-		"id": "cmb0ep25n000mqeo18ifxc6oz",
-		"game": "Banjo-Kazooie",
-		"category": "Any% (N64)",
-		"platform": "Nintendo 64",
-		"race": false,
-		"coop": false,
-		"estimate": "1:15:00",
-		"scheduledTime": "2025-07-15T10:15:00.000Z",
-		"runners": [
-			{
-				"id": "cl259m7ln564580ik26tmo0uco",
-				"username": "The8bitbeast",
-				"pronouns": "He/Him",
-				"twitch": "the8bitbeast"
-			}
-		],
-		"techPlatform": "Nintendo 64",
+		"estimate": "0:40:00",
+		"scheduledTime": "2025-10-09T23:40:00.000Z",
+		"runners": [{ "id": "cl1f2dhqq206000ik2kcq12kiq", "username": "JRP", "pronouns": "", "twitch": "jrp2234" }],
+		"techPlatform": "Nintendo NES",
 		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
-		"id": "cmb0ep25s000nqeo1rsczi5ow",
-		"game": "Crash Twinsanity",
-		"category": "100%",
+		"id": "cmdu47q1w00304e5enphgq73p",
+		"game": "Piglet's Big Game",
+		"category": "Any%",
 		"platform": "PlayStation 2",
 		"race": false,
 		"coop": false,
-		"estimate": "1:25:00",
-		"scheduledTime": "2025-07-15T11:40:00.000Z",
-		"runners": [
-			{
-				"id": "cle74f6wj12923420ipdun5x952h",
-				"username": "Joester98",
-				"pronouns": "",
-				"twitch": "Joester98"
-			}
-		],
+		"estimate": "0:10:00",
+		"scheduledTime": "2025-10-10T00:25:00.000Z",
+		"runners": [{ "id": "cl1655cgv56850ip7e3o5ek8c", "username": "Ninten", "pronouns": "He/him", "twitch": "Ninten" }],
 		"techPlatform": "PlayStation 2",
-		"specialRequirements": "LAYOUT: Standard\n\nPAL PS2 required, console to be provided by me"
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
-		"id": "cmb0ep26a000pqeo1bo3kwi32",
-		"game": "Halo 3: ODST",
-		"category": "Easy",
-		"platform": "Xbox 360",
-		"race": false,
-		"coop": false,
-		"estimate": "1:30:00",
-		"scheduledTime": "2025-07-15T13:15:00.000Z",
-		"runners": [
-			{
-				"id": "clye15fjm005mp608fjxc7ja3",
-				"username": "Wingman953",
-				"pronouns": "",
-				"twitch": "Wingman953"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen"
-	},
-	{
-		"id": "cmb0ep26l000qqeo13v7uhxs6",
-		"game": "RAGE",
-		"category": "100% JumpFix",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "3:50:00",
-		"scheduledTime": "2025-07-15T14:55:00.000Z",
-		"runners": [
-			{
-				"id": "cl9m0u71r5605140jqphfy6a7rt",
-				"username": "BalakehB",
-				"pronouns": "He/Him",
-				"twitch": "BalakehB"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen\n\nJumpFix mod, pre-game config"
-	},
-	{
-		"id": "cmb0ep26n000rqeo10ke7bzng",
-		"game": "South Park: The Stick of Truth",
-		"category": "100%",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "2:10:00",
-		"scheduledTime": "2025-07-15T18:55:00.000Z",
-		"runners": [
-			{
-				"id": "clu9m9qrp000gln08okg9e4d1",
-				"username": "Synrey",
-				"pronouns": "He/Him",
-				"twitch": ""
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen\n\nThe cutscenes wigging out is a side effect of skipping a cutscene early on too fast and can easily be avoided. Tech is going to have to be on BALL during some parts if for whatever reason this somehow gets in (blame noops)"
-	},
-	{
-		"id": "cmb0ep270000sqeo1ousmnd7l",
-		"game": "Finding Nemo",
-		"category": "100%",
-		"platform": "PlayStation 2",
-		"race": false,
-		"coop": false,
-		"estimate": "2:25:00",
-		"scheduledTime": "2025-07-15T21:15:00.000Z",
-		"runners": [
-			{
-				"id": "cm8dx3pkr002e1nd4thbawl7x",
-				"username": "DrRank",
-				"pronouns": "He/Him",
-				"twitch": ""
-			}
-		],
-		"techPlatform": "PlayStation 2",
-		"specialRequirements": "LAYOUT: Standard\n\nPS2 Memory Card with a save file that has all levels cleared and 0/60 Starfish; can provide my own."
-	},
-	{
-		"id": "cmb0ep27c000tqeo104l4hw9g",
-		"game": "Yoshi's Crafted World",
+		"id": "cmdu47q2600314e5e8075zovl",
+		"game": "Super Mario Odyssey",
 		"category": "Any%",
 		"platform": "Nintendo Switch",
 		"race": false,
 		"coop": false,
-		"estimate": "2:30:00",
-		"scheduledTime": "2025-07-15T23:50:00.000Z",
+		"estimate": "1:00:00",
+		"scheduledTime": "2025-10-10T00:40:00.000Z",
 		"runners": [
-			{
-				"id": "cl6lpw4hb588990ioyc131n92w",
-				"username": "GLPhoenix",
-				"pronouns": "He/Him They/Them",
-				"twitch": "GLPhoenix"
-			}
+			{ "id": "clpsfzn7m000xqh08zhh9ogcl", "username": "GameNerd607", "pronouns": "He/Him", "twitch": "GameNerd607" }
 		],
-		"techPlatform": "Nintendo Switch",
+		"techPlatform": "Nintendo Switch 2",
 		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
-		"id": "cmb0ep27e000uqeo16qla1eri",
-		"game": "Pilfer: Story of Light",
+		"id": "cmdu47q2800324e5ev0i19u7n",
+		"game": "Hollow Knight",
+		"category": "Randomiser: Blackout True Ending",
+		"platform": "PC",
+		"race": false,
+		"coop": true,
+		"estimate": "1:50:00",
+		"scheduledTime": "2025-10-10T01:45:00.000Z",
+		"runners": [
+			{ "id": "cl39vdiy813090ir6owemmqnu", "username": "vichisuki", "pronouns": "She/Her", "twitch": "vichisuki" },
+			{ "id": "cl1v7xh8l448270ik2uvuuqb8p", "username": "ins0mnia", "pronouns": "she/her", "twitch": "ins0mniaSR" }
+		],
+		"techPlatform": "PC",
+		"specialRequirements": "Randomiser install, overbind, rivatuner statistics server.\nLAYOUT: Widescreen 2p Bingo"
+	},
+	{
+		"id": "cmdu47q2j00334e5ejd9xgx0p",
+		"game": "Super Mario 64",
+		"category": "70 Star",
+		"platform": "Nintendo 64",
+		"race": false,
+		"coop": false,
+		"estimate": "1:00:00",
+		"scheduledTime": "2025-10-10T03:40:00.000Z",
+		"runners": [
+			{ "id": "clvrmfzmj001jp90847u0gahs", "username": "Logaaaaan64", "pronouns": "He/Him", "twitch": "logaaaaan64" }
+		],
+		"techPlatform": "Nintendo 64",
+		"specialRequirements": "LAYOUT: Standard"
+	},
+	{
+		"id": "cmdu47q2s00344e5egbxg4blw",
+		"game": "Star Wars: Knights of the Old Republic",
+		"category": "Any% No Major Glitches",
+		"platform": "PC",
+		"race": false,
+		"coop": false,
+		"estimate": "2:00:00",
+		"scheduledTime": "2025-10-10T04:45:00.000Z",
+		"runners": [{ "id": "cmdiw12wy001d4e5ehdodj458", "username": "Relentent", "pronouns": "", "twitch": "" }],
+		"techPlatform": "PC",
+		"specialRequirements": "LAYOUT: Standard"
+	},
+	{
+		"id": "cmdu47q3400354e5e925peuf2",
+		"game": "Stardew Valley",
+		"category": "Seeded Shane Marriage Speedrun",
+		"platform": "PC",
+		"race": false,
+		"coop": false,
+		"estimate": "0:30:00",
+		"scheduledTime": "2025-10-10T06:50:00.000Z",
+		"runners": [{ "id": "cmcud927t00cdqeo1dyggbabp", "username": "BlaDe", "pronouns": "He/Him", "twitch": "Bla_De" }],
+		"techPlatform": "PC",
+		"specialRequirements": "AutoHotKey\nLAYOUT: Widescreen"
+	},
+	{
+		"id": "cmduy0e5700404e5ecjynrnog",
+		"game": "Digimon World Vice",
+		"category": "Manipless (Unrestricted)",
+		"platform": "PlayStation 1",
+		"race": false,
+		"coop": false,
+		"estimate": "01:00:00",
+		"scheduledTime": "2025-10-10T07:25:00.000Z",
+		"runners": [{ "id": "cl14omyog01520ipi8c31ahyf", "username": "Raikou", "pronouns": "", "twitch": "Raikou" }],
+		"techPlatform": "PlayStation 2",
+		"specialRequirements": "LAYOUT: Standard"
+	},
+	{
+		"id": "cmdu47q3p00374e5ex1qsk4z5",
+		"game": "BPM: Bullets Per Minute",
+		"category": "Skuld - Easy difficulty - Any% ",
+		"platform": "PC",
+		"race": false,
+		"coop": false,
+		"estimate": "0:25:00",
+		"scheduledTime": "2025-10-10T08:30:00.000Z",
+		"runners": [
+			{ "id": "clnit9fwb000vqh08jdp7wh9b", "username": "ribbongraph", "pronouns": "He/Him", "twitch": "ribbongraph" }
+		],
+		"techPlatform": "PC",
+		"specialRequirements": "Full Skuld character unlocks (shops, starting spells). Can use my laptop.\nLAYOUT: Widescreen"
+	},
+	{
+		"id": "cmdu47q3z00384e5eemawwgx1",
+		"game": "Shrek 2",
 		"category": "Any%",
 		"platform": "PC",
 		"race": false,
 		"coop": false,
-		"estimate": "0:50:00",
-		"scheduledTime": "2025-07-16T02:30:00.000Z",
+		"estimate": "0:30:00",
+		"scheduledTime": "2025-10-10T09:00:00.000Z",
+		"runners": [{ "id": "cl11xzh9542700iqqf19d98yc", "username": "jymmyboi", "pronouns": "", "twitch": "jymmyboi" }],
+		"techPlatform": "PC",
+		"specialRequirements": "LAYOUT: Standard"
+	},
+	{
+		"id": "cmdu47q4100394e5e56fw74eo",
+		"game": "Fez",
+		"category": "Any%",
+		"platform": "Xbox 360",
+		"race": false,
+		"coop": false,
+		"estimate": "0:30:00",
+		"scheduledTime": "2025-10-10T09:35:00.000Z",
 		"runners": [
 			{
-				"id": "cm92b6bf8001hy091d44wof7e",
-				"username": "Zanaroo123",
-				"pronouns": "",
-				"twitch": "https://www.twitch.tv/zanaroo123"
+				"id": "cmdjtu6rw001n4e5e1rksetvt",
+				"username": "morganmustdie",
+				"pronouns": "they/them",
+				"twitch": "morganmustdie"
 			}
 		],
 		"techPlatform": "PC",
 		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
-		"id": "cmb0ep27u000vqeo1sj8m2dzg",
-		"game": "Bomberman 64",
-		"category": "Any% Full Power",
-		"platform": "Nintendo 64",
+		"id": "cmdu47q4g003a4e5exard2sls",
+		"game": "Shadow Generations",
+		"category": "All Stages No Wings",
+		"platform": "PC",
 		"race": false,
 		"coop": false,
-		"estimate": "0:30:00",
-		"scheduledTime": "2025-07-16T03:30:00.000Z",
+		"estimate": "1:00:00",
+		"scheduledTime": "2025-10-10T10:10:00.000Z",
 		"runners": [
-			{
-				"id": "cl26vt3yb590940ik2yqgbo6jj",
-				"username": "Thom",
-				"pronouns": "",
-				"twitch": "Thom"
-			}
+			{ "id": "cl2b5a6r5651270ik2cj5tj7ih", "username": "Yuki_Layla", "pronouns": "She/Her", "twitch": "YukiLayla" }
 		],
-		"techPlatform": "Nintendo 64",
-		"specialRequirements": "LAYOUT: Standard\n\nNot 100% required but it would be very helpful if I can borrow an Australian nintendo 64 power brick so I don't need to bring a JPN to Aus transformer"
+		"techPlatform": "PC",
+		"specialRequirements": "The game must be downpatched and booted to high priority through task manager. Additionally if the incentive is accepted, the DLC for Tokyo will need to be downloaded as well. Downpatch guide here https://www.speedrun.com/shadow_generations/guides/scmlk\nLAYOUT: Widescreen"
 	},
 	{
-		"id": "cmb0ep280000wqeo1tz9olfs0",
+		"id": "cmdu47q4l003b4e5eavu3uwuh",
 		"game": "Survivor Wii",
 		"category": "Any%",
 		"platform": "Nintendo Wii",
 		"race": false,
 		"coop": false,
 		"estimate": "0:35:00",
-		"scheduledTime": "2025-07-16T04:10:00.000Z",
+		"scheduledTime": "2025-10-10T11:15:00.000Z",
 		"runners": [
-			{
-				"id": "cl168p333131550ip74a6tfpue",
-				"username": "Noops",
-				"pronouns": "He/Him",
-				"twitch": "Noops_AU"
-			}
+			{ "id": "cl168p333131550ip74a6tfpue", "username": "Noops", "pronouns": "He/Him", "twitch": "Noops_AU" }
 		],
 		"techPlatform": "Nintendo WiiU",
 		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
-		"id": "cmb0ep28g000yqeo1dssiceje",
-		"game": "Paper Mario: The Thousand Year Door",
-		"category": "Any%",
-		"platform": "Nintendo GameCube",
-		"race": false,
-		"coop": false,
-		"estimate": "3:40:00",
-		"scheduledTime": "2025-07-16T04:55:00.000Z",
-		"runners": [
-			{
-				"id": "cl39vdiy813090ir6owemmqnu",
-				"username": "vichisuki",
-				"pronouns": "She/Her",
-				"twitch": "vichisuki"
-			}
-		],
-		"techPlatform": "Nintendo Wii",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0ep28i000zqeo1xfssnv00",
-		"game": "Here Comes Niko!",
-		"category": "Any%",
-		"platform": "PC",
-		"race": true,
-		"coop": false,
-		"estimate": "0:25:00",
-		"scheduledTime": "2025-07-16T08:45:00.000Z",
-		"runners": [
-			{
-				"id": "clt5xt5wl000xpg087rf16cqr",
-				"username": "IcyKairi",
-				"pronouns": "She/Her",
-				"twitch": "icykairi"
-			},
-			{
-				"id": "clh31e961001io108rqfnpaqk",
-				"username": "FoksMachine",
-				"pronouns": "She/Her",
-				"twitch": "FoksMachine"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen\n\nRequires downpatch"
-	},
-	{
-		"id": "cmb0ep22q000cqeo1fchph4yn",
-		"game": "ASNN Day 2 ",
-		"category": "NEWS",
-		"platform": "IRL",
-		"race": false,
-		"coop": false,
-		"estimate": "0:10:00",
-		"scheduledTime": "2025-07-16T09:20:00.000Z",
-		"runners": [],
-		"techPlatform": "",
-		"specialRequirements": "LAYOUT: ASNN"
-	},
-	{
-		"id": "cmb0ep2980012qeo1u8nwsffm",
-		"game": "Kururin Squash",
-		"category": "All Coins - Relay Race (Honest)",
-		"platform": "Nintendo GameCube",
-		"race": true,
-		"coop": false,
-		"estimate": "1:20:00",
-		"scheduledTime": "2025-07-16T09:30:00.000Z",
-		"runners": [
-			{
-				"id": "cl11zjhbe78870iqqaenwoxt2",
-				"username": "werster",
-				"pronouns": "He/Him",
-				"twitch": "werster"
-			},
-			{
-				"id": "cl46x76iz613990iqu9mijgjrr",
-				"username": "Damosk",
-				"pronouns": "",
-				"twitch": "Damosk"
-			},
-			{
-				"id": "cl11zmvov84510iqqfzmo4u63",
-				"username": "stylonide",
-				"pronouns": "",
-				"twitch": "stylonide"
-			},
-			{
-				"id": "cle74f6wj12923420ipdun5x952h",
-				"username": "Joester98",
-				"pronouns": "",
-				"twitch": "Joester98"
-			}
-		],
-		"techPlatform": "Nintendo GameCube",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0ep29y0014qeo1udqrsp61",
-		"game": "Final Fantasy X",
-		"category": "Any%",
-		"platform": "PlayStation 2",
-		"race": false,
-		"coop": false,
-		"estimate": "10:00:00",
-		"scheduledTime": "2025-07-16T11:00:00.000Z",
-		"runners": [
-			{
-				"id": "cl165ojk288290ip76dcjjmic",
-				"username": "syo",
-				"pronouns": "",
-				"twitch": "syoTV"
-			}
-		],
-		"techPlatform": "PlayStation 2",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0ep2aa0016qeo15272mva7",
-		"game": "Armored Core 6",
-		"category": "New Game Plus Any %",
-		"platform": "Xbox Series",
-		"race": false,
-		"coop": false,
-		"estimate": "2:00:00",
-		"scheduledTime": "2025-07-16T21:10:00.000Z",
-		"runners": [
-			{
-				"id": "cm74yyye8000g7e5nvexx5avr",
-				"username": "MoltenAMF",
-				"pronouns": "He/Him",
-				"twitch": "MoltenAMF"
-			}
-		],
-		"techPlatform": "Xbox Series",
-		"specialRequirements": "LAYOUT: Widescreen"
-	},
-	{
-		"id": "cmb0ep2b10019qeo1bfip0n2c",
-		"game": "Pokemon Heart Gold",
-		"category": "Baton Pass",
-		"platform": "Nintendo DS",
-		"race": true,
-		"coop": false,
-		"estimate": "6:00:00",
-		"scheduledTime": "2025-07-16T23:20:00.000Z",
-		"runners": [
-			{
-				"id": "cl1925rr494380ik2jpkwn1fo",
-				"username": "JTMagicman",
-				"pronouns": "He/Him",
-				"twitch": "JTMagicman"
-			},
-			{
-				"id": "cl11zjhbe78870iqqaenwoxt2",
-				"username": "werster",
-				"pronouns": "He/Him",
-				"twitch": "werster"
-			}
-		],
-		"techPlatform": "Nintendo New 2DS",
-		"specialRequirements": "LAYOUT: DS 2p\n\nNeed \"New2DSXL\" Viewer Software for capture and drivers which can be found here - https://www.merki.net/info/?lang=en&v=6cc98ba2045f#downloads"
-	},
-	{
-		"id": "cmb0ep2bj001bqeo1y1a9h78i",
-		"game": "Antichamber",
-		"category": "120 Signs",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "0:20:00",
-		"scheduledTime": "2025-07-17T05:30:00.000Z",
-		"runners": [
-			{
-				"id": "clcnk5qbx662270ipjx9dlvsns",
-				"username": "Perigon",
-				"pronouns": "they/them",
-				"twitch": "trixigon"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen"
-	},
-	{
-		"id": "cmb0ep2bt001cqeo16fnksryq",
-		"game": "Grand Theft Auto: Vice City",
-		"category": "Any% (No SSU)",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "1:00:00",
-		"scheduledTime": "2025-07-17T06:00:00.000Z",
-		"runners": [
-			{
-				"id": "cl46x76iz613990iqu9mijgjrr",
-				"username": "Damosk",
-				"pronouns": "",
-				"twitch": "Damosk"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Standard\n\nWe run this game windowed using DXWND. I also use AutoHotkey to rebind a couple of controls. All software including the game does NOT need to be downloaded by ASM staff as I can run these programs from my own local file structure which will include the game, DXWND, AutoHotkey, and save file back ups"
-	},
-	{
-		"id": "cmb0ep2ch001fqeo17sdugk9i",
-		"game": "Devil May Cry 3: Special Edition",
-		"category": "Dante New Game Normal Difficulty any%",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "2:00:00",
-		"scheduledTime": "2025-07-17T07:10:00.000Z",
-		"runners": [
-			{
-				"id": "cm835hvyp000w1nd4f3yocxag",
-				"username": "UrsaFlare",
-				"pronouns": "He/Him",
-				"twitch": "ursaflare"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen\n\nStyle Switcher Mod. Fixes some bugs despite not actually using the style switch functionality of the mod.\n(The entire game can be put on a small USB I can happily provide)"
-	},
-	{
-		"id": "cmb0ep249000hqeo1ftkbmmhd",
-		"game": "ASNN DAY 3",
-		"category": "NEWS",
-		"platform": "IRL",
-		"race": false,
-		"coop": false,
-		"estimate": "0:10:00",
-		"scheduledTime": "2025-07-17T09:20:00.000Z",
-		"runners": [],
-		"techPlatform": "",
-		"specialRequirements": "LAYOUT: ASNN"
-	},
-	{
-		"id": "cmb0ep2cs001gqeo1io2cuwc0",
-		"game": "The Ninja Warriors Once Again",
-		"category": "Ninja, Normal",
-		"platform": "Nintendo Switch",
-		"race": false,
-		"coop": false,
-		"estimate": "0:55:00",
-		"scheduledTime": "2025-07-17T09:30:00.000Z",
-		"runners": [
-			{
-				"id": "cl11z89d262030iqq3eq1oow1",
-				"username": "Pichy_Stockmann",
-				"pronouns": "She/Her",
-				"twitch": "pichy_and_pals"
-			}
-		],
-		"techPlatform": "Nintendo Switch",
-		"specialRequirements": "LAYOUT: Widescreen"
-	},
-	{
-		"id": "cmb0ep2cv001hqeo1il2hkrl9",
-		"game": "The Lawnmower Man",
-		"category": "Any%",
-		"platform": "Sega Mega Drive",
-		"race": false,
-		"coop": false,
-		"estimate": "0:30:00",
-		"scheduledTime": "2025-07-17T10:35:00.000Z",
-		"runners": [
-			{
-				"id": "cl259m7ln564580ik26tmo0uco",
-				"username": "The8bitbeast",
-				"pronouns": "He/Him",
-				"twitch": "the8bitbeast"
-			}
-		],
-		"techPlatform": "Sega Mega Drive",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0ep2d6001iqeo1fnmxfta1",
-		"game": "F-Zero GX",
-		"category": "All Tracks Max Speed",
-		"platform": "Nintendo GameCube",
-		"race": false,
-		"coop": false,
-		"estimate": "1:30:00",
-		"scheduledTime": "2025-07-17T11:15:00.000Z",
-		"runners": [
-			{
-				"id": "clbghk5pd100410in0u0cl7jvq",
-				"username": "Baphy",
-				"pronouns": "He/him",
-				"twitch": "MDbaphy"
-			}
-		],
-		"techPlatform": "Nintendo Wii",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0ep2dj001jqeo1sphl5fxo",
-		"game": "Chrono Cross",
-		"category": "Any%",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "6:40:00",
-		"scheduledTime": "2025-07-17T12:55:00.000Z",
-		"runners": [
-			{
-				"id": "cl132lns5168260iqqb8conb60",
-				"username": "Kenorah",
-				"pronouns": "They/any",
-				"twitch": "kenorah"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Standard\n\ncontroller required (i'll bring)"
-	},
-	{
-		"id": "cmb0ep2dl001kqeo1ono15v4f",
-		"game": "Golden Sun: The Lost Age",
-		"category": "Doom Dragon%",
-		"platform": "Nintendo Game Boy Advance",
-		"race": false,
-		"coop": false,
-		"estimate": "3:30:00",
-		"scheduledTime": "2025-07-17T19:45:00.000Z",
-		"runners": [
-			{
-				"id": "cl1hhvlqj233440ik2rtelncsc",
-				"username": "ConicalFlak",
-				"pronouns": "He/Him",
-				"twitch": "conicalflak"
-			}
-		],
-		"techPlatform": "Nintendo WiiU",
-		"specialRequirements": "LAYOUT: GBA"
-	},
-	{
-		"id": "cmb0ep2dt001lqeo1wttix29m",
-		"game": "Code Lyoko: Quest for Infinity",
-		"category": "Any%",
-		"platform": "Nintendo Wii",
-		"race": false,
-		"coop": false,
-		"estimate": "1:35:00",
-		"scheduledTime": "2025-07-17T23:25:00.000Z",
-		"runners": [
-			{
-				"id": "cl164ys4925060ip7bqtmmxjt",
-				"username": "AeonFrodo",
-				"pronouns": "",
-				"twitch": "AeonFrodo"
-			}
-		],
-		"techPlatform": "Nintendo WiiU",
-		"specialRequirements": "LAYOUT: Standard\n\nProbably less electronic equipment if possible around where I would play the game"
-	},
-	{
-		"id": "cmb0ep2e6001mqeo149ppvltv",
-		"game": "Initial D: Special Stage",
-		"category": "Story Mode - Akina's Hachiroku",
-		"platform": "PlayStation 2",
-		"race": false,
-		"coop": false,
-		"estimate": "1:15:00",
-		"scheduledTime": "2025-07-18T01:10:00.000Z",
-		"runners": [
-			{
-				"id": "clfweutbv008ip108hc2s7u7b",
-				"username": "ItsCorpsey",
-				"pronouns": "",
-				"twitch": "Its_Corpsey"
-			}
-		],
-		"techPlatform": "PlayStation 2",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0ep2e8001nqeo1glfzv5zg",
-		"game": "Splatoon 2 - Octo Expansion",
-		"category": "Any%",
-		"platform": "Nintendo Switch",
-		"race": false,
-		"coop": false,
-		"estimate": "1:20:00",
-		"scheduledTime": "2025-07-18T02:35:00.000Z",
-		"runners": [
-			{
-				"id": "cl1emaxsz186610ik24omfh4ys",
-				"username": "Duk700",
-				"pronouns": "",
-				"twitch": "Duk700"
-			}
-		],
-		"techPlatform": "Nintendo Switch",
-		"specialRequirements": "LAYOUT: Widescreen"
-	},
-	{
-		"id": "cmb0ep2ei001oqeo18ukkxx1m",
-		"game": "Spy vs. Spy (2005)",
-		"category": "Story",
-		"platform": "Xbox",
-		"race": false,
-		"coop": false,
-		"estimate": "0:30:00",
-		"scheduledTime": "2025-07-18T04:05:00.000Z",
-		"runners": [
-			{
-				"id": "cl123kwvb117330iqqqxb01bvu",
-				"username": "Craigelbagel001",
-				"pronouns": "He/Him",
-				"twitch": "Craigelbagel001"
-			}
-		],
-		"techPlatform": "Xbox",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0ep2ew001pqeo1h8jnwlr5",
-		"game": "Animal Well",
-		"category": "Any% No Major Glitches",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "0:25:00",
-		"scheduledTime": "2025-07-18T04:45:00.000Z",
-		"runners": [
-			{
-				"id": "cm9sm50zh0038y091mfnvz84m",
-				"username": "Wed",
-				"pronouns": "",
-				"twitch": "wedsr"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen"
-	},
-	{
-		"id": "cmb0ep2fg001sqeo1fxm1pj8f",
-		"game": "Mario Kart 64",
-		"category": "All Cups (Skips)",
+		"id": "cmdu47q4p003c4e5e9erijhfi",
+		"game": "Road Rash 64",
+		"category": "Scooter Mode",
 		"platform": "Nintendo 64",
 		"race": false,
 		"coop": false,
-		"estimate": "0:40:00",
-		"scheduledTime": "2025-07-18T05:20:00.000Z",
+		"estimate": "0:15:00",
+		"scheduledTime": "2025-10-10T22:00:00.000Z",
 		"runners": [
-			{
-				"id": "cl1lpypqe275530ik2ncm0y65e",
-				"username": "LaceyStripes",
-				"pronouns": "She/Her",
-				"twitch": "LaceyStripes"
-			}
+			{ "id": "clyik6uqm005sp608buyw9mhf", "username": "Zonda", "pronouns": "He/Him", "twitch": "zonda1996" }
 		],
 		"techPlatform": "Nintendo 64",
 		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
-		"id": "cmb0ep2ft001uqeo1s6f3xzb7",
-		"game": "Fisherman's Bait 2",
-		"category": "Any% (Co-op)",
-		"platform": "PlayStation 1",
-		"race": true,
-		"coop": true,
+		"id": "cmdu47q55003d4e5e96sli55x",
+		"game": "Snowboard Kids",
+		"category": "All Battle Races (Copper Pass) NG+",
+		"platform": "Nintendo 64",
+		"race": false,
+		"coop": false,
 		"estimate": "0:40:00",
-		"scheduledTime": "2025-07-18T06:10:00.000Z",
+		"scheduledTime": "2025-10-10T22:20:00.000Z",
 		"runners": [
-			{
-				"id": "cl67nw8ps139530ioyjef2jps6",
-				"username": "CurtMantis",
-				"pronouns": "He/Him",
-				"twitch": "CurtMantis"
-			},
-			{
-				"id": "cl14omyog01520ipi8c31ahyf",
-				"username": "Raikou",
-				"pronouns": "",
-				"twitch": "Raikou"
-			}
+			{ "id": "cm8o3fh1w000ly0910agex0la", "username": "Arianafan420", "pronouns": "", "twitch": "arianafan420" }
 		],
-		"techPlatform": "PlayStation 2",
-		"specialRequirements": "LAYOUT: Standard\n\nThere will be a video to be played before starting. Make sure that the audio monitor \"Filter\" is on the video and set to BEHRINGER OUT 1-2"
+		"techPlatform": "Nintendo 64",
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
-		"id": "cmb0ep2g5001vqeo1gqvthvk0",
-		"game": "Tony Hawk's Underground 2",
-		"category": "Story - Easy",
+		"id": "cmdu47q57003e4e5ekpdaw8is",
+		"game": "Here Comes Niko!",
+		"category": "Any%",
 		"platform": "PC",
 		"race": false,
 		"coop": false,
-		"estimate": "0:15:00",
-		"scheduledTime": "2025-07-18T07:00:00.000Z",
+		"estimate": "0:25:00",
+		"scheduledTime": "2025-10-10T23:05:00.000Z",
 		"runners": [
-			{
-				"id": "cl9m0u71r5605140jqphfy6a7rt",
-				"username": "BalakehB",
-				"pronouns": "He/Him",
-				"twitch": "BalakehB"
-			}
+			{ "id": "clh31e961001io108rqfnpaqk", "username": "FoksMachine", "pronouns": "She/Her", "twitch": "FoksMachine" }
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Standard\n\nPartyMod game fix"
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
-		"id": "cmb0ep2gt001xqeo1gnclw8r1",
-		"game": "Super Mario World",
-		"category": "No Cape, No Starworld",
+		"id": "cmgaiir7u001hs4tcr0g4x7b5",
+		"game": "Hollow Knight",
+		"category": "Any% All Glitches",
+		"platform": "PC",
+		"race": false,
+		"coop": false,
+		"estimate": "0:20:00",
+		"scheduledTime": "2025-10-10T23:35:00.000Z",
+		"runners": [{ "id": "clxgqxy1z0031p608q9g95vz9", "username": "Eisog", "pronouns": "He/Him", "twitch": "Eisog" }],
+		"techPlatform": "PC",
+		"specialRequirements": "Patch 1.5.75.11827 is required\nGame framerate capped to 60fps: set FrameRateCap to 60 in the config.ini file; found in \"D:\\Program Files (x86)\\Steam\\steamapps\\common\\HollowKnight\\hollow_knight_Data\nA program such as AntiMicro to set controller inputs to keyboard outputs\nLAYOUT: Widescreen"
+	},
+	{
+		"id": "cmdu47q5w003g4e5ex5yvs868",
+		"game": "Super Monkey Ball",
+		"category": "Master",
+		"platform": "Nintendo GameCube",
+		"race": false,
+		"coop": false,
+		"estimate": "0:20:00",
+		"scheduledTime": "2025-10-11T00:00:00.000Z",
+		"runners": [{ "id": "cl144foqa00000inx7wx4l3yp", "username": "Barhunga", "pronouns": "", "twitch": "Barhunga" }],
+		"techPlatform": "Nintendo Wii",
+		"specialRequirements": "LAYOUT: Standard"
+	},
+	{
+		"id": "cmdu47q5y003h4e5e7lao5wh6",
+		"game": "Banjo-Kazooie",
+		"category": "Any%",
+		"platform": "Nintendo 64",
+		"race": false,
+		"coop": false,
+		"estimate": "1:10:00",
+		"scheduledTime": "2025-10-11T00:25:00.000Z",
+		"runners": [
+			{ "id": "cmap1h1zd0000qeo165192dpq", "username": "TySoN78", "pronouns": "he/him", "twitch": "TySoN78_MK" }
+		],
+		"techPlatform": "Xbox Series",
+		"specialRequirements": "LAYOUT: Standard"
+	},
+	{
+		"id": "cmdu47q61003i4e5eeqj2x1zl",
+		"game": "Mario Kart World",
+		"category": "30 Tracks (Classic)",
+		"platform": "Nintendo Switch 2",
+		"race": false,
+		"coop": false,
+		"estimate": "1:30:00",
+		"scheduledTime": "2025-10-11T01:40:00.000Z",
+		"runners": [
+			{ "id": "cl6n83rug774100ioyunk7jtq4", "username": "Rippy", "pronouns": "She/Her", "twitch": "rippypi" }
+		],
+		"techPlatform": "Nintendo Switch 2",
+		"specialRequirements": "LAYOUT: Widescreen"
+	},
+	{
+		"id": "cmdu47q6i003j4e5eijxq617h",
+		"game": "Super Mario Bros 3",
+		"category": "100%",
+		"platform": "Nintendo NES",
+		"race": false,
+		"coop": false,
+		"estimate": "1:20:00",
+		"scheduledTime": "2025-10-11T03:15:00.000Z",
+		"runners": [
+			{ "id": "cl1dfj0bs168930ik2fq912kdg", "username": "BlazenBezza", "pronouns": "Mr", "twitch": "BlazenBezza" }
+		],
+		"techPlatform": "NES",
+		"specialRequirements": "LAYOUT: Standard"
+	},
+	{
+		"id": "cmdu47q6k003k4e5e903cz2cf",
+		"game": "Clair Obscur: Expedition 33",
+		"category": "Any% Glitchless",
+		"platform": "PC",
+		"race": false,
+		"coop": false,
+		"estimate": "2:00:00",
+		"scheduledTime": "2025-10-11T04:40:00.000Z",
+		"runners": [
+			{ "id": "cl132lns5168260iqqb8conb60", "username": "Kenorah", "pronouns": "They/she", "twitch": "kenorah" }
+		],
+		"techPlatform": "PC",
+		"specialRequirements": "LAYOUT: Widescreen"
+	},
+	{
+		"id": "cmdu47q76003m4e5eilmk4gj9",
+		"game": "Pitfall: The Lost Expedition",
+		"category": "All Temples",
+		"platform": "Nintendo GameCube",
+		"race": false,
+		"coop": false,
+		"estimate": "0:55:00",
+		"scheduledTime": "2025-10-11T06:45:00.000Z",
+		"runners": [
+			{ "id": "clk6ncxpy001eoa08i5tiekjl", "username": "rippersteveM5", "pronouns": "", "twitch": "rippersteveM5" }
+		],
+		"techPlatform": "Nintendo GameCube",
+		"specialRequirements": "Use modded Wii to load NTSC disc (Homebrew + Gecko code) - I will provide console. Previous years we have avoided showing initial boot screen to avoid Nintendo's wrath.\nLAYOUT: Standard"
+	},
+	{
+		"id": "cmdu47q6l003l4e5egxjdkfxx",
+		"game": "Crypt of the Necrodancer",
+		"category": "Story Mode Relay",
+		"platform": "PC",
+		"race": false,
+		"coop": true,
+		"estimate": "1:25:00",
+		"scheduledTime": "2025-10-11T07:45:00.000Z",
+		"runners": [
+			{ "id": "clrywlfqh000aqp08u8816w3m", "username": "ekimekim", "pronouns": "he/him", "twitch": "ekimekim" },
+			{ "id": "clnit9fwb000vqh08jdp7wh9b", "username": "ribbongraph", "pronouns": "He/Him", "twitch": "ribbongraph" }
+		],
+		"techPlatform": "PC",
+		"specialRequirements": "LAYOUT: Widescreen"
+	},
+	{
+		"id": "cmdu47py7002n4e5e31eqlo0o",
+		"game": "Pokemon Fire Red and Leaf Green",
+		"category": "Any% (Manipless Glitchless)",
+		"platform": "Nintendo Game Boy Advance",
+		"race": true,
+		"coop": false,
+		"estimate": "2:30:00",
+		"scheduledTime": "2025-10-11T09:15:00.000Z",
+		"runners": [
+			{ "id": "cl1925rr494380ik2jpkwn1fo", "username": "JTMagicman", "pronouns": "He/Him", "twitch": "JTMagicman" },
+			{ "id": "cl11zjhbe78870iqqaenwoxt2", "username": "werster", "pronouns": "He/Him", "twitch": "werster" }
+		],
+		"techPlatform": "Nintendo DS",
+		"specialRequirements": "Software and driver from https://3dscapture.com/ds\nLAYOUT: GBA 2p"
+	},
+	{
+		"id": "cmdu47pyz002p4e5estzh6g32",
+		"game": "The Legend of Zelda: A Link to the Past Randomizer",
+		"category": "Open Mode 7/7",
 		"platform": "Nintendo SNES",
 		"race": true,
 		"coop": false,
-		"estimate": "0:40:00",
-		"scheduledTime": "2025-07-18T07:25:00.000Z",
+		"estimate": "2:00:00",
+		"scheduledTime": "2025-10-11T22:00:00.000Z",
 		"runners": [
-			{
-				"id": "cl190wm0z50360ik2e5xe6329",
-				"username": "Sten",
-				"pronouns": "He/Him",
-				"twitch": "Sten"
-			},
-			{
-				"id": "cl16516a838960ip796ki29zt",
-				"username": "Dactyly",
-				"pronouns": "",
-				"twitch": "Dactyly"
-			}
+			{ "id": "cl6lq9y0e592180ioyqcy02231", "username": "retronika", "pronouns": "She/Her", "twitch": "retronika" },
+			{ "id": "cl39vdiy813090ir6owemmqnu", "username": "vichisuki", "pronouns": "She/Her", "twitch": "vichisuki" }
+		],
+		"techPlatform": "Nintendo SNES Classic",
+		"specialRequirements": "LAYOUT: Standard 2p"
+	},
+	{
+		"id": "cmdu47pz2002q4e5e64aagpby",
+		"game": "The Legend of Zelda: A Link to the Past",
+		"category": "Any% Major Glitches",
+		"platform": "Nintendo SNES",
+		"race": false,
+		"coop": false,
+		"estimate": "0:20:00",
+		"scheduledTime": "2025-10-12T00:05:00.000Z",
+		"runners": [
+			{ "id": "cl39vdiy813090ir6owemmqnu", "username": "vichisuki", "pronouns": "She/Her", "twitch": "vichisuki" }
 		],
 		"techPlatform": "Nintendo SNES",
 		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
-		"id": "cmb0ep2hj0020qeo16muetecp",
-		"game": "Spyro 3.5: Return to the Forgotten Realms",
-		"category": "Any% No Sorceress Skip",
-		"platform": "PlayStation 1",
-		"race": false,
-		"coop": false,
-		"estimate": "0:45:00",
-		"scheduledTime": "2025-07-18T08:15:00.000Z",
-		"runners": [
-			{
-				"id": "cm9sm50zh0038y091mfnvz84m",
-				"username": "Wed",
-				"pronouns": "",
-				"twitch": "wedsr"
-			}
-		],
-		"techPlatform": "PlayStation 2",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0ep267000oqeo15boymk8z",
-		"game": "ASNN DAY 4",
-		"category": "NEWS",
-		"platform": "IRL",
-		"race": false,
-		"coop": false,
-		"estimate": "0:20:00",
-		"scheduledTime": "2025-07-18T09:10:00.000Z",
-		"runners": [],
-		"techPlatform": "",
-		"specialRequirements": "LAYOUT: ASNN"
-	},
-	{
-		"id": "cmb0jh33z0033qeo1akbl1vea",
-		"game": "Buriki 1",
-		"category": "1 coin clear hardest difficulty",
-		"platform": "Hyper Neo Geo 64",
-		"race": false,
-		"coop": false,
-		"estimate": "0:10:00",
-		"scheduledTime": "2025-07-18T09:30:00.000Z",
-		"runners": [
-			{
-				"id": "cm828in66000o1nd4qj5sqyd7",
-				"username": "Fenno",
-				"pronouns": "She/her",
-				"twitch": "pichy_and_pals"
-			}
-		],
-		"techPlatform": "hyper neo geo 64",
-		"specialRequirements": "LAYOUT: Standard\n\nVideo capture through 15 kHz scart, audio is through 3.5mm \n"
-	},
-	{
-		"id": "cmb0j90oi0031qeo1fy5aw8u7",
-		"game": "40 Winks",
-		"category": "Any%",
-		"platform": "PlayStation 1",
-		"race": false,
-		"coop": false,
-		"estimate": "0:05:00",
-		"scheduledTime": "2025-07-18T09:40:00.000Z",
-		"runners": [
-			{
-				"id": "cle74f6wj12923420ipdun5x952h",
-				"username": "Joester98",
-				"pronouns": "",
-				"twitch": "Joester98"
-			}
-		],
-		"techPlatform": "PlayStation 2",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0jav7e0032qeo1uor1g6ld",
-		"game": "Donkey Kong Country",
-		"category": "Any%",
-		"platform": "Nintendo SNES",
-		"race": false,
-		"coop": false,
-		"estimate": "0:10:00",
-		"scheduledTime": "2025-07-18T09:45:00.000Z",
-		"runners": [
-			{
-				"id": "cl132bcsh164810iqq2s3x5qvz",
-				"username": "nei",
-				"pronouns": "they/them",
-				"twitch": "nei_"
-			}
-		],
-		"techPlatform": "SNES",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0j6c7t0030qeo18lp8q35y",
-		"game": "Virtual ON Oratorio Tangram",
-		"category": "Very Easy (Twinstick Controls)",
-		"platform": "Arcade",
-		"race": false,
-		"coop": false,
-		"estimate": "0:10:00",
-		"scheduledTime": "2025-07-18T09:55:00.000Z",
-		"runners": [
-			{
-				"id": "cl11z89d262030iqq3eq1oow1",
-				"username": "Pichy_Stockmann",
-				"pronouns": "She/Her",
-				"twitch": "pichy_and_pals"
-			}
-		],
-		"techPlatform": "Xbox 360",
-		"specialRequirements": "LAYOUT: Widescreen"
-	},
-	{
-		"id": "cmb0jj4oq0034qeo1qlilv6dt",
-		"game": "Pokemon Puzzle League",
-		"category": "1P Stadium (Easy)",
-		"platform": "Nintendo 64",
-		"race": false,
-		"coop": false,
-		"estimate": "0:10:00",
-		"scheduledTime": "2025-07-18T10:05:00.000Z",
-		"runners": [
-			{
-				"id": "cl26vt3yb590940ik2yqgbo6jj",
-				"username": "Thom",
-				"pronouns": "",
-				"twitch": "Thom"
-			}
-		],
-		"techPlatform": "Nintendo Switch NSO",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0jkzsf0035qeo1vodncbum",
-		"game": "Cuisineer",
-		"category": "Liquidity%",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "0:15:00",
-		"scheduledTime": "2025-07-18T10:15:00.000Z",
-		"runners": [
-			{
-				"id": "clfut9c6b006kp1086o6voz2y",
-				"username": "LittleCrowShae",
-				"pronouns": "She/Her",
-				"twitch": "LittleCrowShae"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen"
-	},
-	{
-		"id": "cmb0jmgsa0036qeo15no2xw0s",
-		"game": "Tony Hawk's Pro Skater 3",
-		"category": "Any% (6th Gen)",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "0:10:00",
-		"scheduledTime": "2025-07-18T10:30:00.000Z",
-		"runners": [
-			{
-				"id": "cl9m0u71r5605140jqphfy6a7rt",
-				"username": "BalakehB",
-				"pronouns": "He/Him",
-				"twitch": "BalakehB"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Standard\n\nPartymod Game Fix\n"
-	},
-	{
-		"id": "cmb0jnoqv0037qeo1kq95b4mp",
-		"game": "Dexter: The Game",
-		"category": "Any%",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "0:15:00",
-		"scheduledTime": "2025-07-18T10:40:00.000Z",
-		"runners": [
-			{
-				"id": "cl11xzh9542700iqqf19d98yc",
-				"username": "jymmyboi",
-				"pronouns": "",
-				"twitch": "jymmyboi"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen\n\nCould use Dxwnd to window but can't imagine it is critical\n"
-	},
-	{
-		"id": "cmb0jow6a0038qeo1190kl60a",
-		"game": "Reach for the Sky",
-		"category": "Any%",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "0:15:00",
-		"scheduledTime": "2025-07-18T10:55:00.000Z",
-		"runners": [
-			{
-				"id": "clfdp7qnp0020p108t30l75sd",
-				"username": "Oki",
-				"pronouns": "He / Him",
-				"twitch": ""
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Standard\n\nI'll need to provide the game as it was my high school project from 2015. Credits for the game contain my full name when accessing credits, finishing the game or closing the game. Ideally I'd like to avoid doxing myself so please take that into consideration.\n"
-	},
-	{
-		"id": "cmb0jq2ro0039qeo1kgxzx7bt",
-		"game": "ULTRAKILL",
-		"category": "Layer Any%",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "0:05:00",
-		"scheduledTime": "2025-07-18T11:10:00.000Z",
-		"runners": [
-			{
-				"id": "cm81eeoae000h1nd4qsvf5zsx",
-				"username": "Maker",
-				"pronouns": "he/him",
-				"twitch": ""
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen"
-	},
-	{
-		"id": "cmb0ep2ik0025qeo12m2ya0kw",
-		"game": "South of Midnight",
-		"category": "Any% (No Accessibility Skips, Scryer)",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "1:30:00",
-		"scheduledTime": "2025-07-18T11:25:00.000Z",
-		"runners": [
-			{
-				"id": "cmacp2jrk004jy091v1icfzlu",
-				"username": "Bamford",
-				"pronouns": "",
-				"twitch": "Bamford"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen\n\nI play using a controller that i'll bring"
-	},
-	{
-		"id": "cmb0ep28q0010qeo1dqbnu0gi",
-		"game": "Final Fantasy VII Remake Intergrade",
-		"category": "NMG (Easy) New Game",
-		"platform": "PlayStation 5",
-		"race": false,
-		"coop": false,
-		"estimate": "5:30:00",
-		"scheduledTime": "2025-07-18T13:05:00.000Z",
-		"runners": [
-			{
-				"id": "cl1cb3ytf149500ik271amgyte",
-				"username": "Glint",
-				"pronouns": "He/Him",
-				"twitch": "masterglint"
-			}
-		],
-		"techPlatform": "PlayStation 5",
-		"specialRequirements": "LAYOUT: Widescreen"
-	},
-	{
-		"id": "cmb0ep2960011qeo11xl8qp60",
-		"game": "ENDER MAGNOLIA: Bloom in the Mist",
-		"category": "Ending B (Normal)",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "1:45:00",
-		"scheduledTime": "2025-07-18T18:45:00.000Z",
-		"runners": [
-			{
-				"id": "cl2hlia7u929570ik2vl7zsuwi",
-				"username": "TasmaniaJones",
-				"pronouns": "he/him",
-				"twitch": "TasmaniaJones"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen\n\nXbox One controller (needs a USB-A port). I will provide the controller."
-	},
-	{
-		"id": "cmb0ep29f0013qeo1b8khguhi",
-		"game": "Drakengard",
-		"category": "A Ending",
-		"platform": "PlayStation 2",
-		"race": false,
-		"coop": false,
-		"estimate": "2:20:00",
-		"scheduledTime": "2025-07-18T20:40:00.000Z",
-		"runners": [
-			{
-				"id": "cl2ivzc0u981440ik2ngyz8avv",
-				"username": "Galasrinie",
-				"pronouns": "She/Her",
-				"twitch": "Gala"
-			}
-		],
-		"techPlatform": "PlayStation 2",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0ep2a50015qeo1bdmq1a6p",
-		"game": "Snowboard Kids",
-		"category": "All Battle Races (Copper Pass)",
-		"platform": "Nintendo 64",
-		"race": false,
-		"coop": false,
-		"estimate": "0:40:00",
-		"scheduledTime": "2025-07-18T23:10:00.000Z",
-		"runners": [
-			{
-				"id": "cm8o3fh1w000ly0910agex0la",
-				"username": "Arianafan420",
-				"pronouns": "",
-				"twitch": "Twitch.tv/arianafan420"
-			}
-		],
-		"techPlatform": "Nintendo 64",
-		"specialRequirements": "LAYOUT: Standard\n\nA laptop is usually used in tandem when playing to track items - this can be done by myself as a runner or by a caster."
-	},
-	{
-		"id": "cmb0ep2an0017qeo1kf05twk4",
-		"game": "Everhood",
-		"category": "Pacifist Any%",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "1:25:00",
-		"scheduledTime": "2025-07-19T00:00:00.000Z",
-		"runners": [
-			{
-				"id": "clulsqtri001yln08avd44x2n",
-				"username": "Felxstorm",
-				"pronouns": "he/him",
-				"twitch": ""
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Standard?\n\nIt's run on v1.0.11\nhttps://www.speedrun.com/everhood/guides/wu285\nIf it doesn't work replace dotnet DepotDownloader.dll with .\\DepotDownloader.exe\n\n"
-	},
-	{
-		"id": "cmb0ep2au0018qeo104anw45d",
-		"game": "Final Fantasy XV",
-		"category": "Any%",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "1:00:00",
-		"scheduledTime": "2025-07-19T01:35:00.000Z",
-		"runners": [
-			{
-				"id": "clfweutbv008ip108hc2s7u7b",
-				"username": "ItsCorpsey",
-				"pronouns": "",
-				"twitch": "Its_Corpsey"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen"
-	},
-	{
-		"id": "cmb0ep2be001aqeo1vc6subnm",
-		"game": "TUNIC",
-		"category": "Any% Unrestricted",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "0:25:00",
-		"scheduledTime": "2025-07-19T02:45:00.000Z",
-		"runners": [
-			{
-				"id": "clt5xt5wl000xpg087rf16cqr",
-				"username": "IcyKairi",
-				"pronouns": "She/Her",
-				"twitch": "icykairi"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen\n\nMonitor set to 120hz for vsync, access to game specific steam gamepad remapping for input binding"
-	},
-	{
-		"id": "cmb0ep2c6001dqeo1nfj9wrsw",
-		"game": "Gardeners",
-		"category": "2-Player, Normal Difficulty",
-		"platform": "Board Game",
-		"race": true,
-		"coop": true,
-		"estimate": "0:15:00",
-		"scheduledTime": "2025-07-19T03:20:00.000Z",
-		"runners": [
-			{
-				"id": "cl2769ts7603680ik2gyhk2ja4",
-				"username": "Alecat",
-				"pronouns": "she/her",
-				"twitch": "Alecat"
-			},
-			{
-				"id": "cl165ef2275720ip7xmuby6dh",
-				"username": "Nicosar",
-				"pronouns": "He/Him",
-				"twitch": "hc_nicosar"
-			}
-		],
-		"techPlatform": "Board Game",
-		"specialRequirements": "LAYOUT: Top Bar Only\n\nWe will need 5-10 minutes before the run starts to explain the game & rules to the audience!"
-	},
-	{
-		"id": "cmb0ep2c8001eqeo1zdisel5s",
-		"game": "Super Smash Bros Melee",
-		"category": "Classic Mode All Difficulties CC",
-		"platform": "Nintendo GameCube",
-		"race": false,
-		"coop": false,
-		"estimate": "0:45:00",
-		"scheduledTime": "2025-07-19T03:45:00.000Z",
-		"runners": [
-			{
-				"id": "clbghk5pd100410in0u0cl7jvq",
-				"username": "Baphy",
-				"pronouns": "He/him",
-				"twitch": "MDbaphy"
-			}
-		],
-		"techPlatform": "Nintendo Wii",
-		"specialRequirements": "LAYOUT: Standard\n\nIf crowd control, then will need to be run on emulator."
-	},
-	{
-		"id": "cmb0ep2ey001qqeo1mmfp81df",
-		"game": "Blinx 2: Masters Of Time and Space",
-		"category": "Any%",
-		"platform": "Xbox",
-		"race": false,
-		"coop": false,
-		"estimate": "1:20:00",
-		"scheduledTime": "2025-07-19T04:40:00.000Z",
-		"runners": [
-			{
-				"id": "clvdj4egh0004ql08upvldl5q",
-				"username": "Olii",
-				"pronouns": "",
-				"twitch": ""
-			}
-		],
-		"techPlatform": "Xbox",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0ep2f5001rqeo1ak3c8mrj",
-		"game": "The Simpsons: Hit and Run",
-		"category": "100%",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "3:00:00",
-		"scheduledTime": "2025-07-19T06:10:00.000Z",
-		"runners": [
-			{
-				"id": "cl1651qc741600ip7x0rwyumz",
-				"username": "LiquidWiFi",
-				"pronouns": "",
-				"twitch": "LiquidWiFi"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Standard\n\nLucas Mod Launcher"
-	},
-	{
-		"id": "cmb0ep283000xqeo14pr5bpsd",
-		"game": "ASNN DAY 5",
-		"category": "NEWS",
-		"platform": "IRL",
-		"race": false,
-		"coop": false,
-		"estimate": "0:10:00",
-		"scheduledTime": "2025-07-19T09:20:00.000Z",
-		"runners": [],
-		"techPlatform": "",
-		"specialRequirements": "LAYOUT: ASNN"
-	},
-	{
-		"id": "cmb0ep2fi001tqeo17mhz7zz1",
-		"game": "Alice: Madness Returns",
-		"category": "Any%",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "2:10:00",
-		"scheduledTime": "2025-07-19T09:30:00.000Z",
-		"runners": [
-			{
-				"id": "cmacp2jrk004jy091v1icfzlu",
-				"username": "Bamford",
-				"pronouns": "",
-				"twitch": "Bamford"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen\n\nI use a controller that needs a 3rd party software to function properly"
-	},
-	{
-		"id": "cmb0ep2g7001wqeo17ne0tud9",
-		"game": "Silent Hill",
-		"category": "Knife Only",
-		"platform": "PlayStation 1",
-		"race": false,
-		"coop": false,
-		"estimate": "1:20:00",
-		"scheduledTime": "2025-07-19T11:50:00.000Z",
-		"runners": [
-			{
-				"id": "cl16eh96e191220ip74u96zlno",
-				"username": "ICEMAN",
-				"pronouns": "He/Him/They/Them",
-				"twitch": "oICEMANo"
-			}
-		],
-		"techPlatform": "Playstation 1 (NTSC)",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0ep2gw001yqeo10u2ahh0b",
-		"game": "Aliens vs. Predator (2010)",
-		"category": "Any% Marine Campaign",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "0:55:00",
-		"scheduledTime": "2025-07-19T13:20:00.000Z",
-		"runners": [
-			{
-				"id": "cm7u63b0r000nmsjao07f3g6e",
-				"username": "BashaNo",
-				"pronouns": "She/Her",
-				"twitch": "BashaNo_"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen"
-	},
-	{
-		"id": "cmceddmio00ayqeo1s1ad51bv",
-		"game": "OFF",
-		"category": "Any%",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "1:30:00",
-		"scheduledTime": "2025-07-19T14:25:00.000Z",
-		"runners": [
-			{
-				"id": "cm7w06kov0015msja4cdx9qp7",
-				"username": "tutelarfiber7",
-				"pronouns": "",
-				"twitch": "tutelarfiber7"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0ep2hl0021qeo1aqzykmxp",
-		"game": "The Legend of Zelda: Twilight Princess",
-		"category": "100%",
-		"platform": "Nintendo GameCube",
-		"race": false,
-		"coop": false,
-		"estimate": "6:45:00",
-		"scheduledTime": "2025-07-19T16:05:00.000Z",
-		"runners": [
-			{
-				"id": "cl3be88u3113820iqwmioqlvik",
-				"username": "WaterproofTeabag_",
-				"pronouns": "",
-				"twitch": "WaterproofTeabag_"
-			}
-		],
-		"techPlatform": "Gamecube",
-		"specialRequirements": "LAYOUT: Standard"
-	},
-	{
-		"id": "cmb0ep2hx0022qeo1qpp88dby",
-		"game": "Pizza Tower",
+		"id": "cmdu47pzc002r4e5e00p3thw6",
+		"game": "Crash Team Racing",
 		"category": "Any% No Major Glitches",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "1:30:00",
-		"scheduledTime": "2025-07-19T23:00:00.000Z",
-		"runners": [
-			{
-				"id": "cl1aimad3120720ik2hr6r4nt5",
-				"username": "Aun_El",
-				"pronouns": "He/Him",
-				"twitch": "Aun_El"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen"
-	},
-	{
-		"id": "cmb0ep2ib0023qeo1t3u0cm3j",
-		"game": "Croc 2 (GBC)",
-		"category": "Any%",
-		"platform": "Nintendo Game Boy Color",
-		"race": true,
-		"coop": false,
-		"estimate": "0:25:00",
-		"scheduledTime": "2025-07-20T00:40:00.000Z",
-		"runners": [
-			{
-				"id": "cm8rzwur8000ty0913drv7f24",
-				"username": "whit_send",
-				"pronouns": "he/him",
-				"twitch": "whit_send"
-			},
-			{
-				"id": "cl442er6k491500iqu5a28dpb1",
-				"username": "Paulmall",
-				"pronouns": "",
-				"twitch": ""
-			}
-		],
-		"techPlatform": "Nintendo GameCube Game Boy Player",
-		"specialRequirements": "LAYOUT: GBC"
-	},
-	{
-		"id": "cmb0ep2ie0024qeo1fpe6e4kg",
-		"game": "Tony Hawk's Underground",
-		"category": "Any% (Live Band)",
-		"platform": "PC",
-		"race": false,
-		"coop": false,
-		"estimate": "0:50:00",
-		"scheduledTime": "2025-07-20T01:15:00.000Z",
-		"runners": [
-			{
-				"id": "clfmavbpu0046p108xfxqw6qi",
-				"username": "cate",
-				"pronouns": "She/Her",
-				"twitch": "catethps"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Standard Band\n\nw/ Live Band\n\nPC version with Partymod"
-	},
-	{
-		"id": "cmb0ep2j30026qeo1rnc95y2y",
-		"game": "Tony Hawk's Pro Skater",
-		"category": "Any% (Live Band)",
-		"platform": "Nintendo 64",
-		"race": false,
-		"coop": false,
-		"estimate": "0:10:00",
-		"scheduledTime": "2025-07-20T02:05:00.000Z",
-		"runners": [
-			{
-				"id": "clfmavbpu0046p108xfxqw6qi",
-				"username": "cate",
-				"pronouns": "She/Her",
-				"twitch": "catethps"
-			}
-		],
-		"techPlatform": "Nintendo 64",
-		"specialRequirements": "LAYOUT: Standard Band\n\nw/ Live Band, NTSC Nintendo 64 console (can provide my own)"
-	},
-	{
-		"id": "cmb0ep2j50027qeo1uzpn3exp",
-		"game": "Metroid Fusion",
-		"category": "100%",
-		"platform": "Nintendo Game Boy Advance",
-		"race": false,
-		"coop": false,
-		"estimate": "1:45:00",
-		"scheduledTime": "2025-07-20T02:30:00.000Z",
-		"runners": [
-			{
-				"id": "cl1f2dhqq206000ik2kcq12kiq",
-				"username": "JRP",
-				"pronouns": "",
-				"twitch": "jrp2234"
-			}
-		],
-		"techPlatform": "Nintendo GameCube",
-		"specialRequirements": "LAYOUT: GBA"
-	},
-	{
-		"id": "cmb0ep2je0028qeo19mgj18wt",
-		"game": "UFO 50",
-		"category": "Multiple Games Relay",
-		"platform": "PC",
+		"platform": "PlayStation 1",
 		"race": false,
 		"coop": false,
 		"estimate": "1:00:00",
-		"scheduledTime": "2025-07-20T04:25:00.000Z",
-		"runners": [
-			{
-				"id": "cl14omyog01520ipi8c31ahyf",
-				"username": "Raikou",
-				"pronouns": "",
-				"twitch": "Raikou"
-			},
-			{
-				"id": "cl6hl86vo498860ioydsgxgvi0",
-				"username": "Rexaaayyy",
-				"pronouns": "",
-				"twitch": "Rexaaayyy"
-			},
-			{
-				"id": "cl11zmvov84510iqqfzmo4u63",
-				"username": "stylonide",
-				"pronouns": "",
-				"twitch": "stylonide"
-			},
-			{
-				"id": "cleselhne001sqd08u2ucipiz",
-				"username": "Genba",
-				"pronouns": "she/her",
-				"twitch": "genba96"
-			}
-		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen\n\nGames:\n - Golfaria | Runner: Raikou | Estimate: 15:00\n - Camouflage | Runner: Genba96 | Estimate: 6:00\n - Night Manor | Runner: Genba96 | Estimate: 3:00\n - Velgress | Runner: Stylonide | Estimate: 10:00\n - Hyper Contender | Runner: Stylonide | Estimate: 10:00\n - Mortol 2 | Runner: Rexaaayyy | Estimate 5:00\n - Waldorf's Journey | Runner: Rexaaayyy | Estimate: 5:00"
+		"scheduledTime": "2025-10-12T00:30:00.000Z",
+		"runners": [{ "id": "cl165ojk288290ip76dcjjmic", "username": "syo", "pronouns": "", "twitch": "syoTV" }],
+		"techPlatform": "Playstation 2",
+		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
-		"id": "cmb0ep2jr0029qeo1jpb2xgvi",
-		"game": "2014 FIFA World Cup",
-		"category": "50 Goals",
-		"platform": "Xbox 360",
+		"id": "cmdu47q00002s4e5eoxiiz3e9",
+		"game": "Super Smash Bros. Ultimate",
+		"category": "All Challenges: Classic Mode",
+		"platform": "Nintendo Switch",
 		"race": false,
 		"coop": false,
 		"estimate": "0:30:00",
-		"scheduledTime": "2025-07-20T05:35:00.000Z",
+		"scheduledTime": "2025-10-12T01:35:00.000Z",
 		"runners": [
-			{
-				"id": "cl1925rr494380ik2jpkwn1fo",
-				"username": "JTMagicman",
-				"pronouns": "He/Him",
-				"twitch": "JTMagicman"
-			}
+			{ "id": "cl165004u29560ip71zsph90z", "username": "Arahpthos", "pronouns": "He/Him", "twitch": "arahpthoss" }
 		],
-		"techPlatform": "Xbox 360",
-		"specialRequirements": "LAYOUT: Widescreen\n\nNeeds a capture card for the xbox 360 (I use a elgato hd60s)"
+		"techPlatform": "Nintendo Switch 2",
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
-		"id": "cmb0ep2ju002aqeo1yr4gypgs",
-		"game": "Legacy of Kain: Defiance",
-		"category": "Any%",
+		"id": "cmdu47q02002t4e5edy3ddn07",
+		"game": "Super Smash Bros. Melee",
+		"category": "Story Mode All Difficulties (Crowd Control)",
+		"platform": "Nintendo GameCube",
+		"race": false,
+		"coop": false,
+		"estimate": "0:50:00",
+		"scheduledTime": "2025-10-12T02:10:00.000Z",
+		"runners": [{ "id": "clbghk5pd100410in0u0cl7jvq", "username": "Baphy", "pronouns": "He/him", "twitch": "MDbaphy" }],
+		"techPlatform": "Nintendo Wii",
+		"specialRequirements": "Crowd Control\nLAYOUT: Standard"
+	},
+	{
+		"id": "cmdu47q3900364e5eqdgc6zhe",
+		"game": "Tony Hawk's Pro Skater 1+2",
+		"category": "All Goals and Golds - THPS2",
 		"platform": "PC",
 		"race": false,
 		"coop": false,
-		"estimate": "0:25:00",
-		"scheduledTime": "2025-07-20T06:15:00.000Z",
+		"estimate": "0:10:00",
+		"scheduledTime": "2025-10-12T03:05:00.000Z",
 		"runners": [
-			{
-				"id": "cl2bmh217654790ik2sqwevd7u",
-				"username": "megaslayer321a",
-				"pronouns": "he/him",
-				"twitch": "megaslayer321a"
-			}
+			{ "id": "cl9m0u71r5605140jqphfy6a7rt", "username": "BalakehB", "pronouns": "He/Him", "twitch": "BalakehB" }
 		],
 		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Widescreen\n\nThis game must be played with Vsync on and at 60fps, if not the run is impossible."
-	},
-	{
-		"id": "cmb0ep2k3002bqeo14pkglkz6",
-		"game": "Spyro the Dragon",
-		"category": "Vortex",
-		"platform": "PlayStation 1",
-		"race": false,
-		"coop": false,
-		"estimate": "0:25:00",
-		"scheduledTime": "2025-07-20T06:50:00.000Z",
-		"runners": [
-			{
-				"id": "cmagxhv0w005ky091akfjpg66",
-				"username": "ThaRixer",
-				"pronouns": "he/him",
-				"twitch": "ThaRixer"
-			}
-		],
-		"techPlatform": "PlayStation 2",
 		"specialRequirements": "LAYOUT: Standard"
 	},
 	{
-		"id": "cmb0ep2kf002cqeo1wry4y0a7",
-		"game": "The Grinch",
-		"category": "100%",
-		"platform": "PlayStation 1",
+		"id": "cmdu47q03002u4e5eseezw5if",
+		"game": "Kingdom Hearts 2 Final Mix HD",
+		"category": "Any% (Critical)",
+		"platform": "PlayStation 4",
 		"race": false,
 		"coop": false,
-		"estimate": "2:00:00",
-		"scheduledTime": "2025-07-20T07:25:00.000Z",
+		"estimate": "3:15:00",
+		"scheduledTime": "2025-10-12T03:20:00.000Z",
 		"runners": [
-			{
-				"id": "cl2ios2k4961660ik225gdh6vq",
-				"username": "Saiyanz",
-				"pronouns": "",
-				"twitch": "SAlYANZ"
-			}
+			{ "id": "cl48hwcjw07240iozpc6jvd0j", "username": "BryanBrews2000", "pronouns": "", "twitch": "BryanBrews2000" }
 		],
-		"techPlatform": "PC",
-		"specialRequirements": "LAYOUT: Standard\n\nDX WND to Window the Game\nJoy to Key to get my PS2 Controller working on the program"
+		"techPlatform": "PS5",
+		"specialRequirements": "LAYOUT: Widescreen"
 	},
 	{
-		"id": "cmb0ep2kg002dqeo1akbtddb8",
-		"game": "FILIBUSTER",
-		"category": "100%",
-		"platform": "IRL",
+		"id": "cmdu47q0z002w4e5eq4o2t6jw",
+		"game": "Who Wants to Be a Millionaire",
+		"category": "Any% Easy Mode",
+		"platform": "Nintendo Switch",
 		"race": false,
 		"coop": false,
-		"estimate": "0:05:00",
-		"scheduledTime": "2025-07-20T09:25:00.000Z",
+		"estimate": "0:15:00",
+		"scheduledTime": "2025-10-12T06:40:00.000Z",
 		"runners": [
-			{
-				"id": "cl168p333131550ip74a6tfpue",
-				"username": "Noops",
-				"pronouns": "He/Him",
-				"twitch": "Noops_AU"
-			}
+			{ "id": "cl1925rr494380ik2jpkwn1fo", "username": "JTMagicman", "pronouns": "He/Him", "twitch": "JTMagicman" }
 		],
-		"techPlatform": "",
-		"specialRequirements": "LAYOUT: No graphics"
+		"techPlatform": "Nintendo Switch",
+		"specialRequirements": "Needs \"Elgato Game Capture\" or similar to play switch games on stream \nLAYOUT: Widescreen"
+	},
+	{
+		"id": "cmdu47q18002x4e5e3kpj5v7f",
+		"game": "Ending Speech",
+		"category": "Farewells",
+		"platform": "Stage",
+		"race": false,
+		"coop": false,
+		"estimate": "0:10:00",
+		"scheduledTime": "2025-10-12T06:55:00.000Z",
+		"runners": [
+			{ "id": "cl37927ao499980ilsbpeb5x88", "username": "Astrious", "pronouns": "He/Him", "twitch": "Astrious" }
+		],
+		"techPlatform": "Stage",
+		"specialRequirements": "LAYOUT: Full Cam"
 	}
 ]
