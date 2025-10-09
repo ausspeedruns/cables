@@ -49,6 +49,7 @@ const sidebars = {
 			label: "Hardware",
 			items: [
 				"hardware/index",
+				"hardware/retrotink5x",
 				{
 					type: "category",
 					label: "The Rack",
