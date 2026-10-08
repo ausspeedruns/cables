@@ -12,6 +12,7 @@ type Task = {
 
 // Initial task graph for bump-in. Adjust freely to your event.
 const TASKS: Task[] = [
+	{ id: "chairs", title: "Setup and Align chairs" },
 	{ id: "venue-power", title: "Get power from venue" },
 	{ id: "power", title: "Power: run boards and tape down", deps: ["venue-power"] },
 	{ id: "tables", title: "Get 3 tables: runner, tech, host and chairs" },
@@ -36,6 +37,8 @@ const TASKS: Task[] = [
 	{ id: "tech-pc", title: "Setup Tech PC", deps: ["rack", "unpack-monitors", "network"] },
 	{ id: "host-laptop", title: "Setup Host Laptop", deps: ["power", "network"] },
 	{ id: "host-laptop-dashboard", title: "Open Host Dashboard", deps: ["nodecg", "host-laptop"] },
+	{ id: "venue-screens", title: "Screens from venue" },
+	{ id: "banners", title: "Banners setup" },
 	{ id: "venue-speakers", title: "Speakers from venue" },
 	{
 		id: "test-headset-audio-speakers",
