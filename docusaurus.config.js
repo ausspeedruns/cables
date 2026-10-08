@@ -124,6 +124,35 @@ const config = {
 	plugins: ["docusaurus-plugin-sass"],
 };
 
+// Converts the newer schedule export format (system/customData/teams) into the shape the checklist page expects.
+function normaliseScheduleItem(item) {
+	if (!item.teams) return item;
+
+	const teams = item.teams ?? [];
+	const runners = teams.flatMap((team) =>
+		(team.players ?? []).map((player) => ({
+			id: player.id,
+			username: player.name,
+			pronouns: player.pronouns ?? "",
+			twitch: player.social?.twitch ?? "",
+		})),
+	);
+
+	return {
+		id: item.id,
+		game: item.game ?? "",
+		category: item.category ?? "",
+		platform: item.system ?? item.customData?.techPlatform ?? "",
+		race: teams.length > 1,
+		coop: teams.some((team) => (team.players ?? []).length > 1),
+		estimate: item.estimate ?? "",
+		scheduledTime: item.scheduled ?? "",
+		runners,
+		techPlatform: item.customData?.techPlatform ?? item.system ?? "",
+		specialRequirements: item.customData?.specialRequirements ?? "",
+	};
+}
+
 module.exports = async function () {
 	const file = await readFile("./schedule.json", { encoding: "utf-8" });
 
@@ -131,7 +160,7 @@ module.exports = async function () {
 		...config,
 		customFields: {
 			...config.customFields,
-			schedule: JSON.parse(file),
+			schedule: JSON.parse(file).map(normaliseScheduleItem),
 		},
 	};
 };

@@ -159,8 +159,8 @@ export type Runner = {
 	twitch: string;
 };
 
-function abbreviateConsole(platform: string) {
-	switch (platform.toLowerCase()) {
+function abbreviateConsole(platform: string | undefined) {
+	switch ((platform ?? "").toLowerCase()) {
 		case "pc":
 			return "PC";
 		case "playstation 1":
